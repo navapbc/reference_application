@@ -1,0 +1,472 @@
+{
+  "Name": "USCDI v3",
+  "Mnemonic": "USCDI_V3",
+  "Description": "USCDI 3",
+  "ModifiedDateTime": "2025-08-19T19:17:11.230",
+  "CreationDateTime": "2025-08-19T19:17:11.230",
+  "Model": {
+    "name": "Patient Clinical Model 1.0",
+    "mnemonic": "PAT_CLINICAL_V1",
+    "version": 1
+  },
+  "Source": {
+    "Name": "PIQI Alliance",
+    "Mnemonic": "PIQI_ALLIANCE"
+  },
+  "criteria": [
+    {
+      "sequence": 20,
+      "description": "USCDI 3",
+      "entity": "IMM.ADMDT",
+      "SAMMnemonic": "Attr_IsPastDate",
+      "SamNameOverride": "Immunization date is valid",
+      "failureNameOverride": "Immunization date is invalid",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 33,
+      "description": "USCDI 3",
+      "entity": "VIT.RESUNIT",
+      "SAMMnemonic": "Attr_InExternalList",
+      "SamNameOverride": "Vital sign result unit is UCUM",
+      "failureNameOverride": "Vital sign result unit is not UCUM",
+      "SAMParameters": [
+        {
+          "parameterValue": "UCUM",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "conditionalSAM": "Attr_IsPopulated",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 15,
+      "description": "USCDI 3",
+      "entity": "DEM.SEX",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Birth sex is SNOMED-CT",
+      "failureNameOverride": "Birth sex not coded as SNOMED-CT",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_SNO_INT_USEXT",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 21,
+      "description": "USCDI 3",
+      "entity": "IMM.VACC",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Immunization is valid concept",
+      "failureNameOverride": "Immunization is not valid concept",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_FDA_PACK,SYM_CDC_CVX",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 6,
+      "description": "USCDI 3",
+      "entity": "LAB.RESUOM",
+      "SAMMnemonic": "Attr_InExternalList",
+      "SamNameOverride": "Result Unit is UCUM",
+      "failureNameOverride": "Result Unit not in UCUM",
+      "SAMParameters": [
+        {
+          "parameterValue": "UCUM",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "conditionalSAM": "Attr_IsPopulated",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 14,
+      "description": "USCDI 3",
+      "entity": "DEM.DOB",
+      "SAMMnemonic": "Attr_IsPastDate",
+      "SamNameOverride": "Date of birth is valid past date",
+      "failureNameOverride": "Date of brith is invalid",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 1,
+      "description": "USCDI 3",
+      "entity": "LAB.TEST",
+      "SAMMnemonic": "Concept_IsActive",
+      "SamNameOverride": "LOINC Code Active",
+      "failureNameOverride": "Inactive LOINC Code",
+      "scoringEffect": "Informational",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 3,
+      "description": "USCDI 3",
+      "entity": "LAB.ORD",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Lab Order is LOINC",
+      "failureNameOverride": "Lab Order not LOINC",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_REGEN_LOINC",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Informational",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 28,
+      "description": "USCDI 3",
+      "entity": "MED.FSTAT",
+      "SAMMnemonic": "Attr_IsPopulated",
+      "SamNameOverride": "Medication fill status is populated",
+      "failureNameOverride": "Medication fill status not populated",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 32,
+      "description": "USCDI 3",
+      "entity": "VIT.VITAL",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Vital sign is valid concept",
+      "failureNameOverride": "Vital sign is invalid",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_REGEN_LOINC",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 29,
+      "description": "USCDI 3",
+      "entity": "PRC.PROC",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Procedure is valid concept",
+      "failureNameOverride": "Procedure is invalid",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_SNO_INT_USEXT,SYM_AMA_CPT",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 12,
+      "description": "USCDI 3",
+      "entity": "CND.ONDT",
+      "SAMMnemonic": "Attr_IsPastDate",
+      "SamNameOverride": "Condition onset date is valid",
+      "failureNameOverride": "Condition onset date is invalid",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 24,
+      "description": "USCDI 3",
+      "entity": "MED.STDT",
+      "SAMMnemonic": "Attr_IsPastDate",
+      "SamNameOverride": "Medication date is valid",
+      "failureNameOverride": "Medication date is invalid",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 26,
+      "description": "USCDI 3",
+      "entity": "MED.DOSEAMTUOM",
+      "SAMMnemonic": "Attr_InExternalList",
+      "SamNameOverride": "Medication dose unit is valid",
+      "failureNameOverride": "Medication dose unit is invalid",
+      "SAMParameters": [
+        {
+          "parameterValue": "UCUM",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 11,
+      "description": "USCDI 3",
+      "entity": "CND.COND",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Condition is SNOMED-CT or ICD10CM",
+      "failureNameOverride": "Condition is not SNOMED-CT or ICD10CM",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_SNO_INT_USEXT,SYM_WHO_ICD10CM_FULL",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 31,
+      "description": "USCDI 3",
+      "entity": "PRC.RSN",
+      "SAMMnemonic": "Attr_IsPopulated",
+      "SamNameOverride": "Procedure reason is populated",
+      "failureNameOverride": "Procedure reason not populated",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 30,
+      "description": "USCDI 3",
+      "entity": "PRC.PRCDT",
+      "SAMMnemonic": "Attr_IsPastDate",
+      "SamNameOverride": "Procedure date is valid",
+      "failureNameOverride": "Procedure date is invalid",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 19,
+      "description": "USCDI 3",
+      "entity": "DEM.RACE",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Race is valid concept",
+      "failureNameOverride": "Race is invalid",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_CDC_RE",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 27,
+      "description": "USCDI 3",
+      "entity": "MED.IND",
+      "SAMMnemonic": "Attr_IsPopulated",
+      "SamNameOverride": "Medication indication is populated",
+      "failureNameOverride": "Medication indication not populated",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 8,
+      "description": "USCDI 3",
+      "entity": "LAB.RSTAT",
+      "SAMMnemonic": "Attr_IsPopulated",
+      "SamNameOverride": "Result status is populated",
+      "failureNameOverride": "Result status is unpopulated",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 16,
+      "description": "USCDI 3",
+      "entity": "DEM.ETHN",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Ethnicity is valid code",
+      "failureNameOverride": "Ethnicity is invalid",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_CDC_RE",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 9,
+      "description": "USCDI 3",
+      "entity": "ALG.REACT",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Allergy Reaction is SNOMED-CT",
+      "failureNameOverride": "Allergy Reaction is not SNOMED-CT",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_SNO_INT_USEXT",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 22,
+      "description": "USCDI 3",
+      "entity": "IMM.LOTNO",
+      "SAMMnemonic": "Attr_IsPopulated",
+      "SamNameOverride": "Immunization Lot number is populated",
+      "failureNameOverride": "Immunization Lot number not populated",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 2,
+      "description": "USCDI 3",
+      "entity": "LAB.TEST",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Lab Test is LOINC",
+      "failureNameOverride": "Lab Test not LOINC",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_REGEN_LOINC",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": true
+    },
+    {
+      "sequence": 25,
+      "description": "USCDI 3",
+      "entity": "MED.DOSEAMT",
+      "SAMMnemonic": "Attr_IsNumeric",
+      "SamNameOverride": "Medication dose is a valid number",
+      "failureNameOverride": "Medication dose is invalid",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 13,
+      "description": "USCDI 3",
+      "entity": "CND.RESDT",
+      "SAMMnemonic": "Attr_IsPastDate",
+      "SamNameOverride": "Condition resolution date is valid",
+      "failureNameOverride": "Condition resolution date is invalid",
+      "conditionalSAM": "Attr_IsPopulated",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 7,
+      "description": "USCDI 3",
+      "entity": "LAB.SPECTYPE",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Specimen Type is SNOMED-CT",
+      "failureNameOverride": "Specimen Type not SNOMED-CT",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_SNO_INT_USEXT",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "conditionalSAM": "Attr_IsPopulated",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 5,
+      "description": "USCDI 3",
+      "entity": "LAB.RESVALUE",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Lab Result is SNOMED-CT",
+      "failureNameOverride": "Lab Result not SNOMED-CT",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_SNO_INT_USEXT",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "conditionalSAM": "ObservationValue_IsQualitative",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 10,
+      "description": "USCDI 3",
+      "entity": "ALG.SUB",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Allergy Substance is RxNorm or SNOMED-CT",
+      "failureNameOverride": "Allergy Substance is not RxNorm or SNOMED-CT",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_SNO_INT_USEXT,SYM_NLM_RXN",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    },
+    {
+      "sequence": 23,
+      "description": "USCDI 3",
+      "entity": "MED.DRUG",
+      "SAMMnemonic": "Concept_IsValidMember",
+      "SamNameOverride": "Medication is Compatible",
+      "failureNameOverride": "Medication is invalid ",
+      "SAMParameters": [
+        {
+          "parameterValue": "SYM_NLM_RXN,SYM_FDA_PACK",
+          "parameterType": "CSV",
+          "parameterName": "Code System List"
+        }
+      ],
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false
+    }
+  ]
+}

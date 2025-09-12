@@ -1,0 +1,2899 @@
+{
+  "codeSystemLibrary": [
+    {
+      "name": "FHIR US Core DocumentReference Type",
+      "mnemonic": "FHIR_US_CORE_DOCREF_TYPE_3_1_1",
+      "codeSystemIdentifiers": [
+        "FHIR_US_CORE_DOCREF_TYPE_3_1_1"
+      ]
+    },
+    {
+      "name": "FHIR US Core Encounter Type",
+      "mnemonic": "FHIR_US_CORE_ENCOUNTER_TYPE_4_0",
+      "codeSystemIdentifiers": [
+        "FHIR_US_CORE_ENCOUNTER_TYPE_4_0"
+      ]
+    },
+    {
+      "name": "FHIR US Core Provenance Participant Type Codes",
+      "mnemonic": "FHIR_US_CORE_PROVPARTICIPANTTYPECODES_3_1",
+      "codeSystemIdentifiers": [
+        "FHIR_US_CORE_PROVPARTICIPANTTYPECODES_3_1"
+      ]
+    },
+    {
+      "name": "HCA - Pharmacy Migration - Catalog Details",
+      "mnemonic": "HCA_PHARMACY_MIGRATION_CATALOG_DETAILS",
+      "codeSystemIdentifiers": [
+        "HCA_PHARMACY_MIGRATION_CATALOG_DETAILS"
+      ]
+    },
+    {
+      "name": "HCA - Pharmacy Migration - Catalog",
+      "mnemonic": "HCA_PHARMACY_MIGRATION_CATALOGS",
+      "codeSystemIdentifiers": [
+        "HCA_PHARMACY_MIGRATION_CATALOGS"
+      ]
+    },
+    {
+      "name": "HL7 Languages Valueset",
+      "mnemonic": "HL7_LANGUAGES_VALUESET",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/languages",
+        "HL7_LANGUAGES_VALUESET"
+      ]
+    },
+    {
+      "name": "CPT",
+      "mnemonic": "SYM_AMA_CPT",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.6.12",
+        "C4",
+        "SYM_AMA_CPT"
+      ]
+    },
+    {
+      "name": "CPT - Modifiers",
+      "mnemonic": "SYM_AMA_CPTMOD",
+      "codeSystemIdentifiers": [
+        "SYM_AMA_CPTMOD"
+      ]
+    },
+    {
+      "name": "CA - Allergies and Intolerances",
+      "mnemonic": "SYM_CA_ALG_INT",
+      "codeSystemIdentifiers": [
+        "SYM_CA_ALG_INT"
+      ]
+    },
+    {
+      "name": "CA - Unit of Measure",
+      "mnemonic": "SYM_CA_UOM",
+      "codeSystemIdentifiers": [
+        "SYM_CA_UOM"
+      ]
+    },
+    {
+      "name": "CA - Unit Prefixes",
+      "mnemonic": "SYM_CA_UPFX",
+      "codeSystemIdentifiers": [
+        "SYM_CA_UPFX"
+      ]
+    },
+    {
+      "name": "CA - Unit Types",
+      "mnemonic": "SYM_CA_UTYPE",
+      "codeSystemIdentifiers": [
+        "SYM_CA_UTYPE"
+      ]
+    },
+    {
+      "name": "CDC - Vaccine Administered (CVX)",
+      "mnemonic": "SYM_CDC_CVX",
+      "codeSystemIdentifiers": [
+        "CVX",
+        "SYM_CDC_CVX",
+        "2.16.840.1.113883.12.292"
+      ]
+    },
+    {
+      "name": "CDC - Manufacturers of Vaccine (MVX)",
+      "mnemonic": "SYM_CDC_MVX",
+      "codeSystemIdentifiers": [
+        "SYM_CDC_MVX"
+      ]
+    },
+    {
+      "name": "CDC - Race and Ethnicity",
+      "mnemonic": "SYM_CDC_RE",
+      "codeSystemIdentifiers": [
+        "urn:oid:2.16.840.1.113883.6.238",
+        "2.16.840.1.113883.6.238",
+        "CDC Race and Ethnicity",
+        "SYM_CDC_RE",
+        "Race and Ethnicity - CDC",
+        "CDCREC"
+      ]
+    },
+    {
+      "name": "CDC - Vaccine Groups",
+      "mnemonic": "SYM_CDC_VG",
+      "codeSystemIdentifiers": [
+        "SYM_CDC_VG"
+      ]
+    },
+    {
+      "name": "CDC - Vaccine Information Statements (VIS)",
+      "mnemonic": "SYM_CDC_VIS",
+      "codeSystemIdentifiers": [
+        "SYM_CDC_VIS"
+      ]
+    },
+    {
+      "name": "ZIP Code to FIPs County",
+      "mnemonic": "SYM_DW_ZIPCNTY",
+      "codeSystemIdentifiers": [
+        "SYM_DW_ZIPCNTY"
+      ]
+    },
+    {
+      "name": "FDA - National Drug Code Directory Packages",
+      "mnemonic": "SYM_FDA_PACK",
+      "codeSystemIdentifiers": [
+        "SYM_FDA_PACK"
+      ]
+    },
+    {
+      "name": "FDA - National Drug Code Directory Products",
+      "mnemonic": "SYM_FDA_PROD",
+      "codeSystemIdentifiers": [
+        "SYM_FDA_PROD"
+      ]
+    },
+    {
+      "name": "FHIR - Unit Type Codes",
+      "mnemonic": "SYM_FHIR_BENEFIT_UNIT",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.1178",
+        "http://hl7.org/fhir/ValueSet/benefit-unit",
+        "SYM_FHIR_BENEFIT_UNIT",
+        "2.16.840.1.113883.4.642.3.610",
+        "http://terminology.hl7.org/CodeSystem/benefit-unit"
+      ]
+    },
+    {
+      "name": "FHIR - Use",
+      "mnemonic": "SYM_FHIR_CLAIM_USE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/claim-use",
+        "http://hl7.org/fhir/ValueSet/claim-use",
+        "2.16.840.1.113883.4.642.3.544",
+        "SYM_FHIR_CLAIM_USE",
+        "2.16.840.1.113883.4.642.4.545"
+      ]
+    },
+    {
+      "name": "FHIR - Structure Definition Use Codes \/ Keywords",
+      "mnemonic": "SYM_FHIR_DEFINITION_USE",
+      "codeSystemIdentifiers": [
+        "http://terminology.hl7.org/CodeSystem/definition-use",
+        "SYM_FHIR_DEFINITION_USE",
+        "http://hl7.org/fhir/ValueSet/definition-use",
+        "2.16.840.1.113883.4.642.4.1191",
+        "2.16.840.1.113883.4.642.3.1190"
+      ]
+    },
+    {
+      "name": "FHIR - Special arrangements",
+      "mnemonic": "SYM_FHIR_ENCOUNTER_SPECIAL_ARRANGEMENTS",
+      "codeSystemIdentifiers": [
+        "http://terminology.hl7.org/CodeSystem/encounter-special-arrangements",
+        "SYM_FHIR_ENCOUNTER_SPECIAL_ARRANGEMENTS",
+        "2.16.840.1.113883.4.642.3.253",
+        "2.16.840.1.113883.4.642.4.1090",
+        "http://hl7.org/fhir/ValueSet/encounter-special-arrangements"
+      ]
+    },
+    {
+      "name": "FHIR - TestScriptRequestMethodCode",
+      "mnemonic": "SYM_FHIR_HTTP_OPERATIONS",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/http-operations",
+        "SYM_FHIR_HTTP_OPERATIONS",
+        "2.16.840.1.113883.4.642.3.716",
+        "2.16.840.1.113883.4.642.4.717",
+        "http://hl7.org/fhir/ValueSet/http-operations"
+      ]
+    },
+    {
+      "name": "FHIR - StructureMapContextType",
+      "mnemonic": "SYM_FHIR_MAP_CONTEXT_TYPE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/map-context-type",
+        "2.16.840.1.113883.4.642.4.680",
+        "2.16.840.1.113883.4.642.3.679",
+        "SYM_FHIR_MAP_CONTEXT_TYPE",
+        "http://hl7.org/fhir/ValueSet/map-context-type"
+      ]
+    },
+    {
+      "name": "FHIR - StructureMapGroupTypeMode",
+      "mnemonic": "SYM_FHIR_MAP_GROUP_TYPE_MODE",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_MAP_GROUP_TYPE_MODE",
+        "http://hl7.org/fhir/ValueSet/map-group-type-mode",
+        "http://hl7.org/fhir/map-group-type-mode",
+        "2.16.840.1.113883.4.642.3.687",
+        "2.16.840.1.113883.4.642.4.688"
+      ]
+    },
+    {
+      "name": "FHIR - StructureMapInputMode",
+      "mnemonic": "SYM_FHIR_MAP_INPUT_MODE",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.677",
+        "http://hl7.org/fhir/ValueSet/map-input-mode",
+        "SYM_FHIR_MAP_INPUT_MODE",
+        "2.16.840.1.113883.4.642.4.678",
+        "http://hl7.org/fhir/map-input-mode"
+      ]
+    },
+    {
+      "name": "FHIR - StructureMapModelMode",
+      "mnemonic": "SYM_FHIR_MAP_MODEL_MODE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/map-model-mode",
+        "SYM_FHIR_MAP_MODEL_MODE",
+        "2.16.840.1.113883.4.642.3.675",
+        "2.16.840.1.113883.4.642.4.676",
+        "http://hl7.org/fhir/map-model-mode"
+      ]
+    },
+    {
+      "name": "FHIR - StructureMapSourceListMode",
+      "mnemonic": "SYM_FHIR_MAP_SOURCE_LIST_MODE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/map-source-list-mode",
+        "2.16.840.1.113883.4.642.3.683",
+        "2.16.840.1.113883.4.642.4.684",
+        "http://hl7.org/fhir/map-source-list-mode",
+        "SYM_FHIR_MAP_SOURCE_LIST_MODE"
+      ]
+    },
+    {
+      "name": "FHIR - StructureMapTargetListMode",
+      "mnemonic": "SYM_FHIR_MAP_TARGET_LIST_MODE",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_MAP_TARGET_LIST_MODE",
+        "http://hl7.org/fhir/ValueSet/map-target-list-mode",
+        "2.16.840.1.113883.4.642.3.685",
+        "http://hl7.org/fhir/map-target-list-mode",
+        "2.16.840.1.113883.4.642.4.686"
+      ]
+    },
+    {
+      "name": "FHIR - StructureMapTransform",
+      "mnemonic": "SYM_FHIR_MAP_TRANSFORM",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.682",
+        "http://hl7.org/fhir/map-transform",
+        "http://hl7.org/fhir/ValueSet/map-transform",
+        "SYM_FHIR_MAP_TRANSFORM",
+        "2.16.840.1.113883.4.642.3.681"
+      ]
+    },
+    {
+      "name": "FHIR - StatisticsCode",
+      "mnemonic": "SYM_FHIR_OBSERVATION_STATISTICS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.1126",
+        "2.16.840.1.113883.4.642.3.405",
+        "http://hl7.org/fhir/ValueSet/observation-statistics",
+        "http://terminology.hl7.org/CodeSystem/observation-statistics",
+        "SYM_FHIR_OBSERVATION_STATISTICS"
+      ]
+    },
+    {
+      "name": "FHIR - SNOMED CT Reason Medication Not Given Codes",
+      "mnemonic": "SYM_FHIR_REASON_MEDICATION_NOT_GIVEN_CODES",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.343",
+        "SYM_FHIR_REASON_MEDICATION_NOT_GIVEN_CODES",
+        "http://hl7.org/fhir/reason-medication-not-given"
+      ]
+    },
+    {
+      "name": "FHIR - StrengthOfRecommendationRating",
+      "mnemonic": "SYM_FHIR_RECOMMENDATION_STRENGTH",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_RECOMMENDATION_STRENGTH",
+        "2.16.840.1.113883.4.642.3.1021",
+        "http://hl7.org/fhir/ValueSet/recommendation-strength",
+        "2.16.840.1.113883.4.642.4.1268",
+        "http://terminology.hl7.org/CodeSystem/recommendation-strength"
+      ]
+    },
+    {
+      "name": "FHIR - TestReportActionResult",
+      "mnemonic": "SYM_FHIR_REPORT_ACTION_RESULT_CODES",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/report-action-result-codes",
+        "SYM_FHIR_REPORT_ACTION_RESULT_CODES",
+        "2.16.840.1.113883.4.642.4.721",
+        "2.16.840.1.113883.4.642.3.720",
+        "http://hl7.org/fhir/ValueSet/report-action-result-codes"
+      ]
+    },
+    {
+      "name": "FHIR - TestReportParticipantType",
+      "mnemonic": "SYM_FHIR_REPORT_PARTICIPANT_TYPE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/report-participant-type",
+        "2.16.840.1.113883.4.642.4.723",
+        "http://hl7.org/fhir/report-participant-type",
+        "2.16.840.1.113883.4.642.3.722",
+        "SYM_FHIR_REPORT_PARTICIPANT_TYPE"
+      ]
+    },
+    {
+      "name": "FHIR - TestReportResult",
+      "mnemonic": "SYM_FHIR_REPORT_RESULT_CODES",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.719",
+        "SYM_FHIR_REPORT_RESULT_CODES",
+        "http://hl7.org/fhir/ValueSet/report-result-codes",
+        "2.16.840.1.113883.4.642.3.718",
+        "http://hl7.org/fhir/report-result-codes"
+      ]
+    },
+    {
+      "name": "FHIR - TestReportStatus",
+      "mnemonic": "SYM_FHIR_REPORT_STATUS_CODES",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/report-status-codes",
+        "http://hl7.org/fhir/ValueSet/report-status-codes",
+        "2.16.840.1.113883.4.642.3.724",
+        "2.16.840.1.113883.4.642.4.725",
+        "SYM_FHIR_REPORT_STATUS_CODES"
+      ]
+    },
+    {
+      "name": "FHIR - SlicingRules",
+      "mnemonic": "SYM_FHIR_RESOURCE_SLICING_RULES",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_RESOURCE_SLICING_RULES",
+        "http://hl7.org/fhir/ValueSet/resource-slicing-rules",
+        "2.16.840.1.113883.4.642.4.84",
+        "2.16.840.1.113883.4.642.3.83",
+        "http://hl7.org/fhir/resource-slicing-rules"
+      ]
+    },
+    {
+      "name": "FHIR - XPathUsageType",
+      "mnemonic": "SYM_FHIR_SEARCH_XPATH_USAGE",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.636",
+        "2.16.840.1.113883.4.642.3.635",
+        "http://hl7.org/fhir/search-xpath-usage",
+        "http://hl7.org/fhir/ValueSet/search-xpath-usage",
+        "SYM_FHIR_SEARCH_XPATH_USAGE"
+      ]
+    },
+    {
+      "name": "FHIR - Service category",
+      "mnemonic": "SYM_FHIR_SERVICE_CATEGORY",
+      "codeSystemIdentifiers": [
+        "http://terminology.hl7.org/CodeSystem/service-category",
+        "2.16.840.1.113883.4.642.4.1144",
+        "http://hl7.org/fhir/ValueSet/service-category",
+        "2.16.840.1.113883.4.642.3.516",
+        "SYM_FHIR_SERVICE_CATEGORY"
+      ]
+    },
+    {
+      "name": "FHIR - ServiceProvisionConditions",
+      "mnemonic": "SYM_FHIR_SERVICE_PROVISION_CONDITIONS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.1143",
+        "http://hl7.org/fhir/ValueSet/service-provision-conditions",
+        "SYM_FHIR_SERVICE_PROVISION_CONDITIONS",
+        "http://terminology.hl7.org/CodeSystem/service-provision-conditions",
+        "2.16.840.1.113883.4.642.3.514"
+      ]
+    },
+    {
+      "name": "FHIR - Service type",
+      "mnemonic": "SYM_FHIR_SERVICE_TYPE",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.518",
+        "http://hl7.org/fhir/ValueSet/service-type",
+        "http://terminology.hl7.org/CodeSystem/service-type",
+        "2.16.840.1.113883.4.642.4.1145",
+        "SYM_FHIR_SERVICE_TYPE"
+      ]
+    },
+    {
+      "name": "FHIR - USCLS Codes",
+      "mnemonic": "SYM_FHIR_SERVICE_USCLS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.1153",
+        "2.16.840.1.113883.4.642.3.542",
+        "SYM_FHIR_SERVICE_USCLS",
+        "http://terminology.hl7.org/CodeSystem/ex-USCLS",
+        "http://hl7.org/fhir/ValueSet/service-uscls"
+      ]
+    },
+    {
+      "name": "FHIR - SlotStatus",
+      "mnemonic": "SYM_FHIR_SLOTSTATUS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.483",
+        "2.16.840.1.113883.4.642.3.482",
+        "SYM_FHIR_SLOTSTATUS",
+        "http://hl7.org/fhir/ValueSet/slotstatus",
+        "http://hl7.org/fhir/slotstatus"
+      ]
+    },
+    {
+      "name": "FHIR - SmartCapabilities",
+      "mnemonic": "SYM_FHIR_SMART_CAPABILITIES",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/smart-capabilities",
+        "2.16.840.1.113883.4.642.3.1018",
+        "SYM_FHIR_SMART_CAPABILITIES",
+        "2.16.840.1.113883.4.642.4.1265",
+        "http://terminology.hl7.org/CodeSystem/smart-capabilities"
+      ]
+    },
+    {
+      "name": "FHIR - SortDirection",
+      "mnemonic": "SYM_FHIR_SORT_DIRECTION",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.980",
+        "http://hl7.org/fhir/sort-direction",
+        "SYM_FHIR_SORT_DIRECTION",
+        "2.16.840.1.113883.4.642.3.979",
+        "http://hl7.org/fhir/ValueSet/sort-direction"
+      ]
+    },
+    {
+      "name": "FHIR - SPDXLicense",
+      "mnemonic": "SYM_FHIR_SPDX_LICENSE",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.1027",
+        "http://hl7.org/fhir/ValueSet/spdx-license",
+        "SYM_FHIR_SPDX_LICENSE",
+        "http://hl7.org/fhir/spdx-license",
+        "2.16.840.1.113883.4.642.3.1026"
+      ]
+    },
+    {
+      "name": "FHIR - SpecialValues",
+      "mnemonic": "SYM_FHIR_SPECIAL_VALUES",
+      "codeSystemIdentifiers": [
+        "http://terminology.hl7.org/CodeSystem/special-values",
+        "SYM_FHIR_SPECIAL_VALUES",
+        "http://hl7.org/fhir/ValueSet/special-values",
+        "2.16.840.1.113883.4.642.4.1049",
+        "2.16.840.1.113883.4.642.3.9"
+      ]
+    },
+    {
+      "name": "FHIR - SpecimenContainedPreference",
+      "mnemonic": "SYM_FHIR_SPECIMEN_CONTAINED_PREFERENCE",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_SPECIMEN_CONTAINED_PREFERENCE",
+        "http://hl7.org/fhir/ValueSet/specimen-contained-preference",
+        "2.16.840.1.113883.4.642.3.852",
+        "2.16.840.1.113883.4.642.4.853",
+        "http://hl7.org/fhir/specimen-contained-preference"
+      ]
+    },
+    {
+      "name": "FHIR - SpecimenStatus",
+      "mnemonic": "SYM_FHIR_SPECIMEN_STATUS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.472",
+        "http://hl7.org/fhir/specimen-status",
+        "2.16.840.1.113883.4.642.3.471",
+        "http://hl7.org/fhir/ValueSet/specimen-status",
+        "SYM_FHIR_SPECIMEN_STATUS"
+      ]
+    },
+    {
+      "name": "FHIR - StandardsStatus",
+      "mnemonic": "SYM_FHIR_STANDARDS_STATUS",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_STANDARDS_STATUS",
+        "http://hl7.org/fhir/ValueSet/standards-status",
+        "http://terminology.hl7.org/CodeSystem/standards-status",
+        "2.16.840.1.113883.4.642.4.1366",
+        "2.16.840.1.113883.4.642.3.1365"
+      ]
+    },
+    {
+      "name": "FHIR - strandType",
+      "mnemonic": "SYM_FHIR_STRAND_TYPE",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_STRAND_TYPE",
+        "2.16.840.1.113883.4.642.3.985",
+        "2.16.840.1.113883.4.642.4.986",
+        "http://hl7.org/fhir/strand-type",
+        "http://hl7.org/fhir/ValueSet/strand-type"
+      ]
+    },
+    {
+      "name": "FHIR - StructureDefinitionKind",
+      "mnemonic": "SYM_FHIR_STRUCTURE_DEFINITION_KIND",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.668",
+        "http://hl7.org/fhir/structure-definition-kind",
+        "http://hl7.org/fhir/ValueSet/structure-definition-kind",
+        "SYM_FHIR_STRUCTURE_DEFINITION_KIND",
+        "2.16.840.1.113883.4.642.4.669"
+      ]
+    },
+    {
+      "name": "FHIR - StudyType",
+      "mnemonic": "SYM_FHIR_STUDY_TYPE",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.1349",
+        "SYM_FHIR_STUDY_TYPE",
+        "http://terminology.hl7.org/CodeSystem/study-type",
+        "2.16.840.1.113883.4.642.4.1350",
+        "http://hl7.org/fhir/ValueSet/study-type"
+      ]
+    },
+    {
+      "name": "FHIR - SubscriberPolicyholder Relationship Codes",
+      "mnemonic": "SYM_FHIR_SUBSCRIBER_RELATIONSHIP",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_SUBSCRIBER_RELATIONSHIP",
+        "2.16.840.1.113883.4.642.4.1386",
+        "http://terminology.hl7.org/CodeSystem/subscriber-relationship",
+        "2.16.840.1.113883.4.642.3.1385",
+        "http://hl7.org/fhir/ValueSet/subscriber-relationship"
+      ]
+    },
+    {
+      "name": "FHIR - SubscriptionChannelType",
+      "mnemonic": "SYM_FHIR_SUBSCRIPTION_CHANNEL_TYPE",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.500",
+        "SYM_FHIR_SUBSCRIPTION_CHANNEL_TYPE",
+        "http://hl7.org/fhir/ValueSet/subscription-channel-type",
+        "http://hl7.org/fhir/subscription-channel-type",
+        "2.16.840.1.113883.4.642.4.501"
+      ]
+    },
+    {
+      "name": "FHIR - SubscriptionStatus",
+      "mnemonic": "SYM_FHIR_SUBSCRIPTION_STATUS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.503",
+        "http://hl7.org/fhir/subscription-status",
+        "SYM_FHIR_SUBSCRIPTION_STATUS",
+        "http://hl7.org/fhir/ValueSet/subscription-status",
+        "2.16.840.1.113883.4.642.3.502"
+      ]
+    },
+    {
+      "name": "FHIR - SubscriptionTag",
+      "mnemonic": "SYM_FHIR_SUBSCRIPTION_TAG",
+      "codeSystemIdentifiers": [
+        "http://terminology.hl7.org/CodeSystem/subscription-tag",
+        "2.16.840.1.113883.4.642.4.1141",
+        "2.16.840.1.113883.4.642.3.504",
+        "SYM_FHIR_SUBSCRIPTION_TAG",
+        "http://hl7.org/fhir/ValueSet/subscription-tag"
+      ]
+    },
+    {
+      "name": "FHIR - Substance Category Codes",
+      "mnemonic": "SYM_FHIR_SUBSTANCE_CATEGORY",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.1138",
+        "http://hl7.org/fhir/ValueSet/substance-category",
+        "http://terminology.hl7.org/CodeSystem/substance-category",
+        "SYM_FHIR_SUBSTANCE_CATEGORY",
+        "2.16.840.1.113883.4.642.3.476"
+      ]
+    },
+    {
+      "name": "FHIR - SupplyDeliveryStatus",
+      "mnemonic": "SYM_FHIR_SUPPLYDELIVERY_STATUS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.701",
+        "2.16.840.1.113883.4.642.3.700",
+        "http://hl7.org/fhir/ValueSet/supplydelivery-status",
+        "SYM_FHIR_SUPPLYDELIVERY_STATUS",
+        "http://hl7.org/fhir/supplydelivery-status"
+      ]
+    },
+    {
+      "name": "FHIR - Supply Item Type",
+      "mnemonic": "SYM_FHIR_SUPPLYDELIVERY_TYPE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/supplydelivery-type",
+        "2.16.840.1.113883.4.642.3.702",
+        "2.16.840.1.113883.4.642.4.1194",
+        "SYM_FHIR_SUPPLYDELIVERY_TYPE",
+        "http://terminology.hl7.org/CodeSystem/supply-item-type"
+      ]
+    },
+    {
+      "name": "FHIR - Supply Type",
+      "mnemonic": "SYM_FHIR_SUPPLYREQUEST_KIND",
+      "codeSystemIdentifiers": [
+        "http://terminology.hl7.org/CodeSystem/supply-kind",
+        "2.16.840.1.113883.4.642.4.1192",
+        "SYM_FHIR_SUPPLYREQUEST_KIND",
+        "http://hl7.org/fhir/ValueSet/supplyrequest-kind",
+        "2.16.840.1.113883.4.642.3.693"
+      ]
+    },
+    {
+      "name": "FHIR - SupplyRequestReason",
+      "mnemonic": "SYM_FHIR_SUPPLYREQUEST_REASON",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.1193",
+        "2.16.840.1.113883.4.642.3.697",
+        "http://terminology.hl7.org/CodeSystem/supplyrequest-reason",
+        "http://hl7.org/fhir/ValueSet/supplyrequest-reason",
+        "SYM_FHIR_SUPPLYREQUEST_REASON"
+      ]
+    },
+    {
+      "name": "FHIR - SupplyRequestStatus",
+      "mnemonic": "SYM_FHIR_SUPPLYREQUEST_STATUS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.695",
+        "http://hl7.org/fhir/supplyrequest-status",
+        "2.16.840.1.113883.4.642.4.696",
+        "SYM_FHIR_SUPPLYREQUEST_STATUS",
+        "http://hl7.org/fhir/ValueSet/supplyrequest-status"
+      ]
+    },
+    {
+      "name": "FHIR - Surface Codes",
+      "mnemonic": "SYM_FHIR_SURFACE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/surface",
+        "http://terminology.hl7.org/CodeSystem/FDI-surface",
+        "2.16.840.1.113883.4.642.3.546",
+        "2.16.840.1.113883.4.642.4.1154",
+        "SYM_FHIR_SURFACE"
+      ]
+    },
+    {
+      "name": "FHIR - SynthesisType",
+      "mnemonic": "SYM_FHIR_SYNTHESIS_TYPE",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.1347",
+        "2.16.840.1.113883.4.642.4.1348",
+        "http://hl7.org/fhir/ValueSet/synthesis-type",
+        "http://terminology.hl7.org/CodeSystem/synthesis-type",
+        "SYM_FHIR_SYNTHESIS_TYPE"
+      ]
+    },
+    {
+      "name": "FHIR - Task Codes",
+      "mnemonic": "SYM_FHIR_TASK_CODE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/CodeSystem/task-code",
+        "2.16.840.1.113883.4.642.4.1397",
+        "SYM_FHIR_TASK_CODE",
+        "http://hl7.org/fhir/ValueSet/task-code",
+        "2.16.840.1.113883.4.642.3.1396"
+      ]
+    },
+    {
+      "name": "FHIR - TaskIntent",
+      "mnemonic": "SYM_FHIR_TASK_INTENT",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/task-intent",
+        "SYM_FHIR_TASK_INTENT",
+        "2.16.840.1.113883.4.642.4.1241"
+      ]
+    },
+    {
+      "name": "FHIR - TaskStatus",
+      "mnemonic": "SYM_FHIR_TASK_STATUS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.791",
+        "http://hl7.org/fhir/ValueSet/task-status",
+        "2.16.840.1.113883.4.642.3.790",
+        "SYM_FHIR_TASK_STATUS",
+        "http://hl7.org/fhir/task-status"
+      ]
+    },
+    {
+      "name": "FHIR - Teeth Codes",
+      "mnemonic": "SYM_FHIR_TEETH",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/teeth",
+        "SYM_FHIR_TEETH",
+        "2.16.840.1.113883.4.642.3.550",
+        "http://hl7.org/fhir/ex-fdi",
+        "2.16.840.1.113883.4.642.4.551"
+      ]
+    },
+    {
+      "name": "FHIR - Test script operation code",
+      "mnemonic": "SYM_FHIR_TESTSCRIPT_OPERATION_CODES",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.1195",
+        "2.16.840.1.113883.4.642.3.704",
+        "http://hl7.org/fhir/ValueSet/testscript-operation-codes",
+        "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
+        "SYM_FHIR_TESTSCRIPT_OPERATION_CODES"
+      ]
+    },
+    {
+      "name": "FHIR - Test script profile destination type",
+      "mnemonic": "SYM_FHIR_TESTSCRIPT_PROFILE_DESTINATION_TYPES",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_TESTSCRIPT_PROFILE_DESTINATION_TYPES",
+        "2.16.840.1.113883.4.642.4.1197",
+        "http://terminology.hl7.org/CodeSystem/testscript-profile-destination-types",
+        "2.16.840.1.113883.4.642.3.714",
+        "http://hl7.org/fhir/ValueSet/testscript-profile-destination-types"
+      ]
+    },
+    {
+      "name": "FHIR - Test script profile origin type",
+      "mnemonic": "SYM_FHIR_TESTSCRIPT_PROFILE_ORIGIN_TYPES",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/testscript-profile-origin-types",
+        "2.16.840.1.113883.4.642.3.712",
+        "http://terminology.hl7.org/CodeSystem/testscript-profile-origin-types",
+        "SYM_FHIR_TESTSCRIPT_PROFILE_ORIGIN_TYPES",
+        "2.16.840.1.113883.4.642.4.1196"
+      ]
+    },
+    {
+      "name": "FHIR - TransactionMode",
+      "mnemonic": "SYM_FHIR_TRANSACTION_MODE",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_TRANSACTION_MODE",
+        "http://hl7.org/fhir/ValueSet/transaction-mode",
+        "2.16.840.1.113883.4.642.4.193",
+        "http://hl7.org/fhir/transaction-mode",
+        "2.16.840.1.113883.4.642.3.192"
+      ]
+    },
+    {
+      "name": "FHIR - TriggerType",
+      "mnemonic": "SYM_FHIR_TRIGGER_TYPE",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_TRIGGER_TYPE",
+        "http://hl7.org/fhir/ValueSet/trigger-type",
+        "2.16.840.1.113883.4.642.4.104",
+        "2.16.840.1.113883.4.642.3.103",
+        "http://hl7.org/fhir/trigger-type"
+      ]
+    },
+    {
+      "name": "FHIR - TypeDerivationRule",
+      "mnemonic": "SYM_FHIR_TYPE_DERIVATION_RULE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/type-derivation-rule",
+        "2.16.840.1.113883.4.642.3.673",
+        "http://hl7.org/fhir/type-derivation-rule",
+        "2.16.840.1.113883.4.642.4.674",
+        "SYM_FHIR_TYPE_DERIVATION_RULE"
+      ]
+    },
+    {
+      "name": "FHIR - UDI Codes",
+      "mnemonic": "SYM_FHIR_UDI",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ex-udi",
+        "SYM_FHIR_UDI",
+        "2.16.840.1.113883.4.642.3.554",
+        "2.16.840.1.113883.4.642.4.555",
+        "http://hl7.org/fhir/ValueSet/udi"
+      ]
+    },
+    {
+      "name": "FHIR - UDIEntryType",
+      "mnemonic": "SYM_FHIR_UDI_ENTRY_TYPE",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.4.212",
+        "2.16.840.1.113883.4.642.3.211",
+        "http://hl7.org/fhir/ValueSet/udi-entry-type",
+        "SYM_FHIR_UDI_ENTRY_TYPE",
+        "http://hl7.org/fhir/udi-entry-type"
+      ]
+    },
+    {
+      "name": "FHIR - UnknownContentCode",
+      "mnemonic": "SYM_FHIR_UNKNOWN_CONTENT_CODE",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_UNKNOWN_CONTENT_CODE",
+        "2.16.840.1.113883.4.642.4.197",
+        "http://hl7.org/fhir/unknown-content-code",
+        "http://hl7.org/fhir/ValueSet/unknown-content-code",
+        "2.16.840.1.113883.4.642.3.196"
+      ]
+    },
+    {
+      "name": "FHIR US Core - OMB Race Category",
+      "mnemonic": "SYM_FHIR_US_CORE_OMB_RACE_CATEGORY_4_0",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_US_CORE_OMB_RACE_CATEGORY_4_0"
+      ]
+    },
+    {
+      "name": "FHIR US Core Vaccine National Drug Codes (NDC)",
+      "mnemonic": "SYM_FHIR_US_CORE_VACCINE_NDC_3_1_1",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_US_CORE_VACCINE_NDC_3_1_1"
+      ]
+    },
+    {
+      "name": "FHIR - UsageContextType",
+      "mnemonic": "SYM_FHIR_USAGE_CONTEXT_TYPE",
+      "codeSystemIdentifiers": [
+        "http://terminology.hl7.org/CodeSystem/usage-context-type",
+        "2.16.840.1.113883.4.642.4.1068",
+        "SYM_FHIR_USAGE_CONTEXT_TYPE",
+        "http://hl7.org/fhir/ValueSet/usage-context-type",
+        "2.16.840.1.113883.4.642.3.101"
+      ]
+    },
+    {
+      "name": "FHIR - US Core Status for Smoking Status Observation",
+      "mnemonic": "SYM_FHIR_USCORE_AMOKOBSRVSTAT4",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_USCORE_AMOKOBSRVSTAT4"
+      ]
+    },
+    {
+      "name": "FHIR US Core - Birth Sex",
+      "mnemonic": "SYM_FHIR_USCORE_BIRTHSEX_4_0",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_USCORE_BIRTHSEX_4_0"
+      ]
+    },
+    {
+      "name": "FHIR - VerificationResult Communication Method",
+      "mnemonic": "SYM_FHIR_VERIFICATIONRESULT_COMMUNICATION_METHOD",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.1401",
+        "http://terminology.hl7.org/CodeSystem/verificationresult-communication-method",
+        "SYM_FHIR_VERIFICATIONRESULT_COMMUNICATION_METHOD",
+        "http://hl7.org/fhir/ValueSet/verificationresult-communication-method",
+        "2.16.840.1.113883.4.642.4.1402"
+      ]
+    },
+    {
+      "name": "FHIR - Status",
+      "mnemonic": "SYM_FHIR_VERIFICATIONRESULT_STATUS",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_VERIFICATIONRESULT_STATUS",
+        "http://hl7.org/fhir/ValueSet/verificationresult-status",
+        "2.16.840.1.113883.4.642.1.885",
+        "http://hl7.org/fhir/CodeSystem/status",
+        "2.16.840.1.113883.4.642.3.884"
+      ]
+    },
+    {
+      "name": "FHIR - Validation-process",
+      "mnemonic": "SYM_FHIR_VERIFICATIONRESULT_VALIDATION_PROCESS",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/verificationresult-validation-process",
+        "http://terminology.hl7.org/CodeSystem/validation-process",
+        "2.16.840.1.113883.4.642.1.889",
+        "2.16.840.1.113883.4.642.3.888",
+        "SYM_FHIR_VERIFICATIONRESULT_VALIDATION_PROCESS"
+      ]
+    },
+    {
+      "name": "FHIR - Validation-status",
+      "mnemonic": "SYM_FHIR_VERIFICATIONRESULT_VALIDATION_STATUS",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_VERIFICATIONRESULT_VALIDATION_STATUS",
+        "http://hl7.org/fhir/ValueSet/verificationresult-validation-status",
+        "2.16.840.1.113883.4.642.1.895",
+        "2.16.840.1.113883.4.642.3.894",
+        "http://terminology.hl7.org/CodeSystem/validation-status"
+      ]
+    },
+    {
+      "name": "FHIR - Validation-type",
+      "mnemonic": "SYM_FHIR_VERIFICATIONRESULT_VALIDATION_TYPE",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.1.887",
+        "http://terminology.hl7.org/CodeSystem/validation-type",
+        "SYM_FHIR_VERIFICATIONRESULT_VALIDATION_TYPE",
+        "2.16.840.1.113883.4.642.3.886",
+        "http://hl7.org/fhir/ValueSet/verificationresult-validation-type"
+      ]
+    },
+    {
+      "name": "FHIR - VisionBase",
+      "mnemonic": "SYM_FHIR_VISION_BASE_CODES",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_VISION_BASE_CODES",
+        "2.16.840.1.113883.4.642.3.662",
+        "http://hl7.org/fhir/vision-base-codes",
+        "2.16.840.1.113883.4.642.4.663",
+        "http://hl7.org/fhir/ValueSet/vision-base-codes"
+      ]
+    },
+    {
+      "name": "FHIR - VisionEyes",
+      "mnemonic": "SYM_FHIR_VISION_EYE_CODES",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/vision-eye-codes",
+        "SYM_FHIR_VISION_EYE_CODES",
+        "2.16.840.1.113883.4.642.4.661",
+        "http://hl7.org/fhir/ValueSet/vision-eye-codes",
+        "2.16.840.1.113883.4.642.3.660"
+      ]
+    },
+    {
+      "name": "FHIR VS - Account Types",
+      "mnemonic": "SYM_FHIR_VS_ACCOUNT_TYPE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/account-type",
+        "2.16.840.1.113883.4.642.3.728",
+        "SYM_FHIR_VS_ACCOUNT_TYPE"
+      ]
+    },
+    {
+      "name": "FHIR VS - Common UCUM Codes for Age",
+      "mnemonic": "SYM_FHIR_VS_AGE_UNITS",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_VS_AGE_UNITS",
+        "2.16.840.1.113883.4.642.3.19",
+        "http://hl7.org/fhir/ValueSet/age-units"
+      ]
+    },
+    {
+      "name": "FHIR VS - Animal breeds",
+      "mnemonic": "SYM_FHIR_VS_ANIMAL_BREEDS",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_VS_ANIMAL_BREEDS",
+        "2.16.840.1.113883.4.642.3.422",
+        "http://hl7.org/fhir/ValueSet/animal-breeds"
+      ]
+    },
+    {
+      "name": "FHIR VS - Animal species",
+      "mnemonic": "SYM_FHIR_VS_ANIMAL_SPECIES",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.420",
+        "http://hl7.org/fhir/ValueSet/animal-species",
+        "SYM_FHIR_VS_ANIMAL_SPECIES"
+      ]
+    },
+    {
+      "name": "FHIR VS - Bodystructure Location Qualifier",
+      "mnemonic": "SYM_FHIR_VS_BODYSTRUCTURE_RELATIVE_LOCATION",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.140",
+        "http://hl7.org/fhir/ValueSet/bodystructure-relative-location",
+        "SYM_FHIR_VS_BODYSTRUCTURE_RELATIVE_LOCATION"
+      ]
+    },
+    {
+      "name": "FHIR VS - Facility Type Code Value Set",
+      "mnemonic": "SYM_FHIR_VS_C80_FACILITYCODES",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/c80-facilitycodes",
+        "2.16.840.1.113883.3.88.12.80.67",
+        "SYM_FHIR_VS_C80_FACILITYCODES"
+      ]
+    },
+    {
+      "name": "FHIR VS - Care Plan Activity Kind",
+      "mnemonic": "SYM_FHIR_VS_CARE_PLAN_ACTIVITY_KIND",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.145",
+        "http://hl7.org/fhir/ValueSet/care-plan-activity-kind",
+        "SYM_FHIR_VS_CARE_PLAN_ACTIVITY_KIND"
+      ]
+    },
+    {
+      "name": "FHIR VS - Care Plan Activity Outcome",
+      "mnemonic": "SYM_FHIR_VS_CARE_PLAN_ACTIVITY_OUTCOME",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/care-plan-activity-outcome",
+        "2.16.840.1.113883.4.642.3.149",
+        "SYM_FHIR_VS_CARE_PLAN_ACTIVITY_OUTCOME"
+      ]
+    },
+    {
+      "name": "FHIR VS - Care Plan Category",
+      "mnemonic": "SYM_FHIR_VS_CARE_PLAN_CATEGORY",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_VS_CARE_PLAN_CATEGORY",
+        "http://hl7.org/fhir/ValueSet/care-plan-category",
+        "2.16.840.1.113883.4.642.3.148"
+      ]
+    },
+    {
+      "name": "FHIR VS - Care Plan Intent",
+      "mnemonic": "SYM_FHIR_VS_CARE_PLAN_INTENT",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.150",
+        "SYM_FHIR_VS_CARE_PLAN_INTENT",
+        "http://hl7.org/fhir/ValueSet/care-plan-intent"
+      ]
+    },
+    {
+      "name": "FHIR VS - Clinical Impression Prognosis",
+      "mnemonic": "SYM_FHIR_VS_CLINICALIMPRESSION_PROGNOSIS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.160",
+        "SYM_FHIR_VS_CLINICALIMPRESSION_PROGNOSIS",
+        "http://hl7.org/fhir/ValueSet/clinicalimpression-prognosis"
+      ]
+    },
+    {
+      "name": "FHIR VS - Clinical Impression Status",
+      "mnemonic": "SYM_FHIR_VS_CLINICALIMPRESSION_STATUS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.1046",
+        "http://hl7.org/fhir/ValueSet/clinicalimpression-status",
+        "SYM_FHIR_VS_CLINICALIMPRESSION_STATUS"
+      ]
+    },
+    {
+      "name": "FHIR VS - Condition\/Diagnosis Severity",
+      "mnemonic": "SYM_FHIR_VS_CONDITION_SEVERITY",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/condition-severity",
+        "SYM_FHIR_VS_CONDITION_SEVERITY",
+        "2.16.840.1.113883.4.642.3.168"
+      ]
+    },
+    {
+      "name": "FHIR VS - Condition Stage",
+      "mnemonic": "SYM_FHIR_VS_CONDITION_STAGE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/condition-stage",
+        "SYM_FHIR_VS_CONDITION_STAGE",
+        "2.16.840.1.113883.4.642.3.170"
+      ]
+    },
+    {
+      "name": "FHIR VS - Condition Stage Type",
+      "mnemonic": "SYM_FHIR_VS_CONDITION_STAGE_TYPE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/condition-stage-type",
+        "2.16.840.1.113883.4.642.3.171",
+        "SYM_FHIR_VS_CONDITION_STAGE_TYPE"
+      ]
+    },
+    {
+      "name": "FHIR VS - Designation Use",
+      "mnemonic": "SYM_FHIR_VS_DESIGNATION_USE",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.264",
+        "SYM_FHIR_VS_DESIGNATION_USE",
+        "http://hl7.org/fhir/ValueSet/designation-use"
+      ]
+    },
+    {
+      "name": "FHIR VS - Detected Issue Category",
+      "mnemonic": "SYM_FHIR_VS_DETECTEDISSUE_CATEGORY",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.204",
+        "http://hl7.org/fhir/ValueSet/detectedissue-category",
+        "SYM_FHIR_VS_DETECTEDISSUE_CATEGORY"
+      ]
+    },
+    {
+      "name": "FHIR VS - Detected Issue Mitigation Action",
+      "mnemonic": "SYM_FHIR_VS_DETECTEDISSUE_MITIGATION_ACTION",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_VS_DETECTEDISSUE_MITIGATION_ACTION",
+        "2.16.840.1.113883.4.642.3.205",
+        "http://hl7.org/fhir/ValueSet/detectedissue-mitigation-action"
+      ]
+    },
+    {
+      "name": "FHIR VS - Device Type",
+      "mnemonic": "SYM_FHIR_VS_DEVICE_TYPE",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_VS_DEVICE_TYPE",
+        "2.16.840.1.113883.4.642.3.1376",
+        "http://hl7.org/fhir/ValueSet/device-type"
+      ]
+    },
+    {
+      "name": "FHIR VS - Diagnostic attachment type",
+      "mnemonic": "SYM_FHIR_VS_DIAGNOSTIC_BASED_ON_SNOMED",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_VS_DIAGNOSTIC_BASED_ON_SNOMED",
+        "http://hl7.org/fhir/ValueSet/diagnostic-based-on-snomed",
+        "2.16.840.1.113883.4.642.3.960"
+      ]
+    },
+    {
+      "name": "FHIR VS - Diet Codes",
+      "mnemonic": "SYM_FHIR_VS_DIET_TYPE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/diet-type",
+        "2.16.840.1.113883.4.642.3.385",
+        "SYM_FHIR_VS_DIET_TYPE"
+      ]
+    },
+    {
+      "name": "FHIR VS - Common UCUM Codes for Distance",
+      "mnemonic": "SYM_FHIR_VS_DISTANCE_UNITS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.62",
+        "SYM_FHIR_VS_DISTANCE_UNITS",
+        "http://hl7.org/fhir/ValueSet/distance-units"
+      ]
+    },
+    {
+      "name": "FHIR VS - Common UCUM Codes for Duration",
+      "mnemonic": "SYM_FHIR_VS_DURATION_UNITS",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.61",
+        "http://hl7.org/fhir/ValueSet/duration-units",
+        "SYM_FHIR_VS_DURATION_UNITS"
+      ]
+    },
+    {
+      "name": "FHIR VS - Encounter Reason Codes",
+      "mnemonic": "SYM_FHIR_VS_ENCOUNTER_REASON",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/encounter-reason",
+        "SYM_FHIR_VS_ENCOUNTER_REASON",
+        "2.16.840.1.113883.4.642.3.261"
+      ]
+    },
+    {
+      "name": "FHIR VS - Enteral Route Codes",
+      "mnemonic": "SYM_FHIR_VS_ENTERAL_ROUTE",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/ValueSet/enteral-route",
+        "2.16.840.1.113883.4.642.3.394",
+        "SYM_FHIR_VS_ENTERAL_ROUTE"
+      ]
+    },
+    {
+      "name": "FHIR VS - Enteral Formula Type Codes",
+      "mnemonic": "SYM_FHIR_VS_ENTFORMULA_TYPE",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_VS_ENTFORMULA_TYPE",
+        "2.16.840.1.113883.4.642.3.391",
+        "http://hl7.org/fhir/ValueSet/entformula-type"
+      ]
+    },
+    {
+      "name": "FHIR VS - Codes for Immunization Site of Administration",
+      "mnemonic": "SYM_FHIR_VS_IMMUNIZATION_SITE",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.288",
+        "http://hl7.org/fhir/ValueSet/immunization-site",
+        "SYM_FHIR_VS_IMMUNIZATION_SITE"
+      ]
+    },
+    {
+      "name": "FHIR VS - Body Length Units",
+      "mnemonic": "SYM_FHIR_VS_UCUM_BODYLENGTH",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.958",
+        "SYM_FHIR_VS_UCUM_BODYLENGTH",
+        "http://hl7.org/fhir/ValueSet/ucum-bodylength"
+      ]
+    },
+    {
+      "name": "FHIR VS - Body Temperature Units",
+      "mnemonic": "SYM_FHIR_VS_UCUM_BODYTEMP",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_VS_UCUM_BODYTEMP",
+        "2.16.840.1.113883.4.642.3.957",
+        "http://hl7.org/fhir/ValueSet/ucum-bodytemp"
+      ]
+    },
+    {
+      "name": "FHIR VS - Body Weight Units",
+      "mnemonic": "SYM_FHIR_VS_UCUM_BODYWEIGHT",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.4.642.3.956",
+        "SYM_FHIR_VS_UCUM_BODYWEIGHT",
+        "http://hl7.org/fhir/ValueSet/ucum-bodyweight"
+      ]
+    },
+    {
+      "name": "FHIR VS - Common UCUM units",
+      "mnemonic": "SYM_FHIR_VS_UCUM_COMMON",
+      "codeSystemIdentifiers": [
+        "SYM_FHIR_VS_UCUM_COMMON",
+        "http://hl7.org/fhir/ValueSet/ucum-common"
+      ]
+    },
+    {
+      "name": "HCPCS Codes",
+      "mnemonic": "SYM_HCPCS_CODES",
+      "codeSystemIdentifiers": [
+        "HCPCS Level II",
+        "SYM_HCPCS_CODES"
+      ]
+    },
+    {
+      "name": "HCPCS Modifiers",
+      "mnemonic": "SYM_HCPCS_MOD",
+      "codeSystemIdentifiers": [
+        "SYM_HCPCS_MOD"
+      ]
+    },
+    {
+      "name": "HL7 - Act Relationship Type",
+      "mnemonic": "SYM_HL7-ART",
+      "codeSystemIdentifiers": [
+        "SYM_HL7-ART"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Risk",
+      "mnemonic": "SYM_HL7_",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_"
+      ]
+    },
+    {
+      "name": "HL7 - Act Class Observation",
+      "mnemonic": "SYM_HL7_ACCB",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACCB"
+      ]
+    },
+    {
+      "name": "HL7 - Act Class Clinical Document",
+      "mnemonic": "SYM_HL7_ACCD",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACCD"
+      ]
+    },
+    {
+      "name": "HL7 - Acknowledgement Condition",
+      "mnemonic": "SYM_HL7_ACKC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACKC"
+      ]
+    },
+    {
+      "name": "HL7 - Acknowledgement Type",
+      "mnemonic": "SYM_HL7_ACKTYP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACKTYP"
+      ]
+    },
+    {
+      "name": "HL7 - Act Class Document",
+      "mnemonic": "SYM_HL7_ACLD",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACLD"
+      ]
+    },
+    {
+      "name": "HL7 - Act Class Investigation",
+      "mnemonic": "SYM_HL7_ACLN",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACLN"
+      ]
+    },
+    {
+      "name": "HL7 - Act Incident Code",
+      "mnemonic": "SYM_HL7_ACNC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACNC"
+      ]
+    },
+    {
+      "name": "HL7 - Act Consent Directive",
+      "mnemonic": "SYM_HL7_ACND",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACND"
+      ]
+    },
+    {
+      "name": "HL7 - Act Class Procedure",
+      "mnemonic": "SYM_HL7_ACPR",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACPR"
+      ]
+    },
+    {
+      "name": "HL7 - Act Consent Type",
+      "mnemonic": "SYM_HL7_ACSN",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACSN"
+      ]
+    },
+    {
+      "name": "HL7 - Act Class Supply",
+      "mnemonic": "SYM_HL7_ACSP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACSP"
+      ]
+    },
+    {
+      "name": "HL7 - Act Site",
+      "mnemonic": "SYM_HL7_ACST",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACST"
+      ]
+    },
+    {
+      "name": "HL7 - Act Class",
+      "mnemonic": "SYM_HL7_ACTC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACTC"
+      ]
+    },
+    {
+      "name": "***HL7 - Act Encounter",
+      "mnemonic": "SYM_HL7_ACTENC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACTENC"
+      ]
+    },
+    {
+      "name": "HL7 - Act Mood",
+      "mnemonic": "SYM_HL7_ACTMOOD",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACTMOOD"
+      ]
+    },
+    {
+      "name": "HL7 - Act Coverage Type Code",
+      "mnemonic": "SYM_HL7_ACTP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACTP"
+      ]
+    },
+    {
+      "name": "HL7 - Act Priority",
+      "mnemonic": "SYM_HL7_ACTPRI",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACTPRI"
+      ]
+    },
+    {
+      "name": "HL7 - Act Reason",
+      "mnemonic": "SYM_HL7_ACTREASON",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACTREASON"
+      ]
+    },
+    {
+      "name": "HL7 - Act Status",
+      "mnemonic": "SYM_HL7_ACTSTATUS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACTSTATUS"
+      ]
+    },
+    {
+      "name": "HL7 - Act Task Code",
+      "mnemonic": "SYM_HL7_ACTTSK",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACTTSK"
+      ]
+    },
+    {
+      "name": "HL7 - Act Uncertainty",
+      "mnemonic": "SYM_HL7_ACTUNCERT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ACTUNCERT"
+      ]
+    },
+    {
+      "name": "HL7 - Administrative Gender",
+      "mnemonic": "SYM_HL7_ADMINGNDR",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.5.1",
+        "AdministrativeGender",
+        "HL7 AdministrativeGender",
+        "SYM_HL7_ADMINGNDR"
+      ]
+    },
+    {
+      "name": "HL7 - Act Encounter Code",
+      "mnemonic": "SYM_HL7_AENC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_AENC"
+      ]
+    },
+    {
+      "name": "HL7 - Act Invoice Element Modifier",
+      "mnemonic": "SYM_HL7_AIEM",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_AIEM"
+      ]
+    },
+    {
+      "name": "HL7 - Acknowledgement Detail Code",
+      "mnemonic": "SYM_HL7_AKDC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_AKDC"
+      ]
+    },
+    {
+      "name": "HL7 - Acknowledgement Detail Type",
+      "mnemonic": "SYM_HL7_AKDT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_AKDT"
+      ]
+    },
+    {
+      "name": "HL7 - American Indian Alaska Native Languages",
+      "mnemonic": "SYM_HL7_ALNL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ALNL"
+      ]
+    },
+    {
+      "name": "HL7 - Act Mood Intent",
+      "mnemonic": "SYM_HL7_AMDN",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_AMDN"
+      ]
+    },
+    {
+      "name": "HL7 - Act Mood Predicate",
+      "mnemonic": "SYM_HL7_AMDP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_AMDP"
+      ]
+    },
+    {
+      "name": "HL7 - Act Pharmacy Supply Type",
+      "mnemonic": "SYM_HL7_APST",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_APST"
+      ]
+    },
+    {
+      "name": "HL7 - Address Part Type",
+      "mnemonic": "SYM_HL7_APT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_APT"
+      ]
+    },
+    {
+      "name": "HL7 - Act Relationship Conditional",
+      "mnemonic": "SYM_HL7_ARCN",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ARCN"
+      ]
+    },
+    {
+      "name": "HL7 - Act Relationship Fulfills",
+      "mnemonic": "SYM_HL7_ARFF",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ARFF"
+      ]
+    },
+    {
+      "name": "HL7 - Act Relationship Has Component",
+      "mnemonic": "SYM_HL7_ARHC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ARHC"
+      ]
+    },
+    {
+      "name": "HL7 - Act Relationship Join",
+      "mnemonic": "SYM_HL7_ARJ",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ARJ"
+      ]
+    },
+    {
+      "name": "HL7 - Act Relationship Checkpoint",
+      "mnemonic": "SYM_HL7_ARLC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ARLC"
+      ]
+    },
+    {
+      "name": "HL7 - Act Relationship Split",
+      "mnemonic": "SYM_HL7_ARLS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ARLS"
+      ]
+    },
+    {
+      "name": "HL7 - Act Class ROI",
+      "mnemonic": "SYM_HL7_AROI",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_AROI"
+      ]
+    },
+    {
+      "name": "HL7 - Act Relationship Subset",
+      "mnemonic": "SYM_HL7_ARSB",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ARSB"
+      ]
+    },
+    {
+      "name": "HL7 - Act Relationship Pertains",
+      "mnemonic": "SYM_HL7_ARSP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ARSP"
+      ]
+    },
+    {
+      "name": "HL7 - Act Substance Admin Substitution Code",
+      "mnemonic": "SYM_HL7_ASAC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ASAC"
+      ]
+    },
+    {
+      "name": "HL7 - Act Code",
+      "mnemonic": "SYM_HL7_ATCD",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ATCD"
+      ]
+    },
+    {
+      "name": "HL7 - Act US Privacy Law",
+      "mnemonic": "SYM_HL7_AUPL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_AUPL"
+      ]
+    },
+    {
+      "name": "HL7 - Act Invoice Group Code",
+      "mnemonic": "SYM_HL7_AVGC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_AVGC"
+      ]
+    },
+    {
+      "name": "HL7 - Act Exposure Level Code",
+      "mnemonic": "SYM_HL7_AXLC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_AXLC"
+      ]
+    },
+    {
+      "name": "HL7 - Compression Algorithm",
+      "mnemonic": "SYM_HL7_CALG",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CALG"
+      ]
+    },
+    {
+      "name": "HL7 - Coding Rationale",
+      "mnemonic": "SYM_HL7_CDRL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CDRL"
+      ]
+    },
+    {
+      "name": "HL7 - Confidentiality Classification",
+      "mnemonic": "SYM_HL7_CFCL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CFCL"
+      ]
+    },
+    {
+      "name": "HL7 - Confidentiality",
+      "mnemonic": "SYM_HL7_CFDY",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CFDY"
+      ]
+    },
+    {
+      "name": "HL7 - Charset",
+      "mnemonic": "SYM_HL7_CHRT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CHRT"
+      ]
+    },
+    {
+      "name": "HL7 - Calendar Cycle",
+      "mnemonic": "SYM_HL7_CLCY",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CLCY"
+      ]
+    },
+    {
+      "name": "HL7 - Calendar",
+      "mnemonic": "SYM_HL7_CLNDR",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CLNDR"
+      ]
+    },
+    {
+      "name": "HL7 - Calendar Type",
+      "mnemonic": "SYM_HL7_CLTP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CLTP"
+      ]
+    },
+    {
+      "name": "HL7 - Communication Function Type",
+      "mnemonic": "SYM_HL7_CMFT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CMFT"
+      ]
+    },
+    {
+      "name": "HL7 - Compartment",
+      "mnemonic": "SYM_HL7_CMPRT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CMPRT"
+      ]
+    },
+    {
+      "name": "HL7 - Container Separator",
+      "mnemonic": "SYM_HL7_CNSP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CNSP"
+      ]
+    },
+    {
+      "name": "HL7 - Context Control",
+      "mnemonic": "SYM_HL7_CNTX",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CNTX"
+      ]
+    },
+    {
+      "name": "HL7 - Coverage Role Type",
+      "mnemonic": "SYM_HL7_COVROLTYP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_COVROLTYP"
+      ]
+    },
+    {
+      "name": "HL7 - Content Processing Mode",
+      "mnemonic": "SYM_HL7_CPRM",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CPRM"
+      ]
+    },
+    {
+      "name": "****HL7 - Contact Type",
+      "mnemonic": "SYM_HL7_CT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CT"
+      ]
+    },
+    {
+      "name": "HL7 - Container Cap",
+      "mnemonic": "SYM_HL7_CTRC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_CTRC"
+      ]
+    },
+    {
+      "name": "HL7 - Document Completion",
+      "mnemonic": "SYM_HL7_DC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_DC"
+      ]
+    },
+    {
+      "name": "HL7 - Document Storage",
+      "mnemonic": "SYM_HL7_DCMT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_DCMT"
+      ]
+    },
+    {
+      "name": "HL7 - Data Operation",
+      "mnemonic": "SYM_HL7_DTOP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_DTOP"
+      ]
+    },
+    {
+      "name": "HL7 - Device Alert Level",
+      "mnemonic": "SYM_HL7_DVAL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_DVAL"
+      ]
+    },
+    {
+      "name": "HL7 - Encounter Admission Source",
+      "mnemonic": "SYM_HL7_EAS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_EAS"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Code",
+      "mnemonic": "SYM_HL7_EC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_EC"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Class Device",
+      "mnemonic": "SYM_HL7_ECDV",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ECDV"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Class Place",
+      "mnemonic": "SYM_HL7_ECLP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ECLP"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Class Living Subject",
+      "mnemonic": "SYM_HL7_ECLS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ECLS"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Class Manufactured Material",
+      "mnemonic": "SYM_HL7_ECMM",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ECMM"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Class Organization",
+      "mnemonic": "SYM_HL7_ECRG",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ECRG"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Determiner",
+      "mnemonic": "SYM_HL7_ED",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ED"
+      ]
+    },
+    {
+      "name": "HL7 - Education Level",
+      "mnemonic": "SYM_HL7_EDLV",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_EDLV"
+      ]
+    },
+    {
+      "name": "HL7 - Employee Job Class",
+      "mnemonic": "SYM_HL7_EMJC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_EMJC"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Class Root",
+      "mnemonic": "SYM_HL7_ENCR",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ENCR"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Name Part Qualifier",
+      "mnemonic": "SYM_HL7_ENPQ",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ENPQ"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Name Part Qualifier R2",
+      "mnemonic": "SYM_HL7_ENPQR2",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ENPQR2"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Name Part Type",
+      "mnemonic": "SYM_HL7_ENPT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ENPT"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Name Part Type R2",
+      "mnemonic": "SYM_HL7_ENPTR2",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ENPTR2"
+      ]
+    },
+    {
+      "name": "HL7 - Encounter Special Courtesy",
+      "mnemonic": "SYM_HL7_ENSP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ENSP"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Status",
+      "mnemonic": "SYM_HL7_ENST",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ENST"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Class",
+      "mnemonic": "SYM_HL7_ENTC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ENTC"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Name UseR2",
+      "mnemonic": "SYM_HL7_ENTNAMEUSE",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ENTNAMEUSE"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Name Use",
+      "mnemonic": "SYM_HL7_ENU",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ENU"
+      ]
+    },
+    {
+      "name": "HL7 - Equipment Alert Level",
+      "mnemonic": "SYM_HL7_EQAL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_EQAL"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Determiner Determined",
+      "mnemonic": "SYM_HL7_ETDD",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ETDD"
+      ]
+    },
+    {
+      "name": "HL7 - Entity Handling",
+      "mnemonic": "SYM_HL7_ETHD",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ETHD"
+      ]
+    },
+    {
+      "name": "HL7 - Ethnicity",
+      "mnemonic": "SYM_HL7_ETHNICITY",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ETHNICITY",
+        "http://hl7.org/fhir/v3/Ethnicity"
+      ]
+    },
+    {
+      "name": "HL7 - Exposure Mode",
+      "mnemonic": "SYM_HL7_EXPM",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_EXPM"
+      ]
+    },
+    {
+      "name": "HL7 - Family Member",
+      "mnemonic": "SYM_HL7_FM",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_FM"
+      ]
+    },
+    {
+      "name": "HL7 - Gender Status",
+      "mnemonic": "SYM_HL7_GNDR",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_GNDR"
+      ]
+    },
+    {
+      "name": "HL7 - General Purpose Of Use",
+      "mnemonic": "SYM_HL7_GPOU",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_GPOU"
+      ]
+    },
+    {
+      "name": "HL7 - GTS Abbreviation",
+      "mnemonic": "SYM_HL7_GTSABBREV",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_GTSABBREV"
+      ]
+    },
+    {
+      "name": "HL7 - HL7 v3 Conformance",
+      "mnemonic": "SYM_HL7_HL7C",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_HL7C"
+      ]
+    },
+    {
+      "name": "HL7 - HL7 Realm",
+      "mnemonic": "SYM_HL7_HL7R",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_HL7R"
+      ]
+    },
+    {
+      "name": "HL7 - HL7 Update Mode",
+      "mnemonic": "SYM_HL7_HL7UM",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_HL7UM"
+      ]
+    },
+    {
+      "name": "HL7 - Human Language",
+      "mnemonic": "SYM_HL7_HMNL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_HMNL"
+      ]
+    },
+    {
+      "name": "HL7 - Html Link Type",
+      "mnemonic": "SYM_HL7_HTML",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_HTML"
+      ]
+    },
+    {
+      "name": "HL7 - Identifier Reliability",
+      "mnemonic": "SYM_HL7_IDRL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_IDRL"
+      ]
+    },
+    {
+      "name": "HL7 - Identifier Scope",
+      "mnemonic": "SYM_HL7_IDSC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_IDSC"
+      ]
+    },
+    {
+      "name": "HL7 - Information Sensitivity Policy",
+      "mnemonic": "SYM_HL7_IFSP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_IFSP"
+      ]
+    },
+    {
+      "name": "HL7 - Integrity Check Algorithm",
+      "mnemonic": "SYM_HL7_INCA",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_INCA"
+      ]
+    },
+    {
+      "name": "HL7 - Language Ability Mode",
+      "mnemonic": "SYM_HL7_LAM",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_LAM"
+      ]
+    },
+    {
+      "name": "HL7 - Language Ability Proficiency",
+      "mnemonic": "SYM_HL7_LAP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_LAP"
+      ]
+    },
+    {
+      "name": "HL7 - Local Markup Ignore",
+      "mnemonic": "SYM_HL7_LCMI",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_LCMI"
+      ]
+    },
+    {
+      "name": "HL7 - Local Remote Control State",
+      "mnemonic": "SYM_HL7_LRCS3",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_LRCS3"
+      ]
+    },
+    {
+      "name": "HL7 - Lab Report Participant",
+      "mnemonic": "SYM_HL7_LRP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_LRP"
+      ]
+    },
+    {
+      "name": "HL7 - Living Arrangement",
+      "mnemonic": "SYM_HL7_LVGR",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_LVGR"
+      ]
+    },
+    {
+      "name": "HL7 - Modify Indicator",
+      "mnemonic": "SYM_HL7_MDIN",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_MDIN"
+      ]
+    },
+    {
+      "name": "HL7 - MediaType",
+      "mnemonic": "SYM_HL7_MEDIATYPE",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_MEDIATYPE"
+      ]
+    },
+    {
+      "name": "HL7 - Medication Fill Status",
+      "mnemonic": "SYM_HL7_MFS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_MFS"
+      ]
+    },
+    {
+      "name": "HL7 - Map Relationship",
+      "mnemonic": "SYM_HL7_MPRL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_MPRL"
+      ]
+    },
+    {
+      "name": "HL7 - Managed Participation Status",
+      "mnemonic": "SYM_HL7_MPS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_MPS"
+      ]
+    },
+    {
+      "name": "HL7 - Marital Status",
+      "mnemonic": "SYM_HL7_MS",
+      "codeSystemIdentifiers": [
+        "http://hl7.org/fhir/v3/MaritalStatus",
+        "2.16.840.1.113883.5.2",
+        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "SYM_HL7_MS"
+      ]
+    },
+    {
+      "name": "HL7 - Message Waiting Priority",
+      "mnemonic": "SYM_HL7_MSWP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_MSWP"
+      ]
+    },
+    {
+      "name": "HL7 - Null Flavor",
+      "mnemonic": "SYM_HL7_NF",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_NF"
+      ]
+    },
+    {
+      "name": "HL7 - No Immunization Reason",
+      "mnemonic": "SYM_HL7_NIRSN",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_NIRSN"
+      ]
+    },
+    {
+      "name": "HL7 - Obligation Policy",
+      "mnemonic": "SYM_HL7_OBPC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_OBPC"
+      ]
+    },
+    {
+      "name": "HL7 - ObservationValue",
+      "mnemonic": "SYM_HL7_OBSVALUE",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_OBSVALUE"
+      ]
+    },
+    {
+      "name": "HL7 - Observation Interpretation",
+      "mnemonic": "SYM_HL7_OI",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_OI"
+      ]
+    },
+    {
+      "name": "HL7 - OrderableDrugForm",
+      "mnemonic": "SYM_HL7_ORDERABLEDF",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ORDERABLEDF"
+      ]
+    },
+    {
+      "name": "HL7 - Participation Function",
+      "mnemonic": "SYM_HL7_PARTFUNC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PARTFUNC"
+      ]
+    },
+    {
+      "name": "HL7 - Participation Type",
+      "mnemonic": "SYM_HL7_PARTTYPE",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PARTTYPE"
+      ]
+    },
+    {
+      "name": "HL7 - Patient Importance",
+      "mnemonic": "SYM_HL7_PATIMPORT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PATIMPORT"
+      ]
+    },
+    {
+      "name": "HL7 - Address Use",
+      "mnemonic": "SYM_HL7_PAU",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PAU"
+      ]
+    },
+    {
+      "name": "HL7 - Probability Distribution Type",
+      "mnemonic": "SYM_HL7_PBDT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PBDT"
+      ]
+    },
+    {
+      "name": "HL7 - Processing ID",
+      "mnemonic": "SYM_HL7_PCID",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PCID"
+      ]
+    },
+    {
+      "name": "HL7 - Person Disability Type",
+      "mnemonic": "SYM_HL7_PDT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PDT"
+      ]
+    },
+    {
+      "name": "HL7 - Provenance Event Current State - AS (Acting Status)",
+      "mnemonic": "SYM_HL7_PEAS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PEAS"
+      ]
+    },
+    {
+      "name": "HL7 - Provenance Event Current State",
+      "mnemonic": "SYM_HL7_PECS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PECS"
+      ]
+    },
+    {
+      "name": "HL7 - Provenance Event Current State - DC (Document Completion)",
+      "mnemonic": "SYM_HL7_PEDC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PEDC"
+      ]
+    },
+    {
+      "name": "HL7 - Payment Terms",
+      "mnemonic": "SYM_HL7_PMNT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PMNT"
+      ]
+    },
+    {
+      "name": "HL7 - Participation Mode",
+      "mnemonic": "SYM_HL7_PNMD",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PNMD"
+      ]
+    },
+    {
+      "name": "HL7 - Participation Information Transcriber",
+      "mnemonic": "SYM_HL7_PNNT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PNNT"
+      ]
+    },
+    {
+      "name": "HL7 - Participation Physical Performer",
+      "mnemonic": "SYM_HL7_PNPP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PNPP"
+      ]
+    },
+    {
+      "name": "HL7 - Participation Signature",
+      "mnemonic": "SYM_HL7_PNSG",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PNSG"
+      ]
+    },
+    {
+      "name": "HL7 - Participation Target Direct",
+      "mnemonic": "SYM_HL7_PNTD",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PNTD"
+      ]
+    },
+    {
+      "name": "HL7 - Participation Target Location",
+      "mnemonic": "SYM_HL7_PNTL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PNTL"
+      ]
+    },
+    {
+      "name": "HL7 - Participation Target Subject",
+      "mnemonic": "SYM_HL7_PNTS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PNTS"
+      ]
+    },
+    {
+      "name": "HL7 - Participation Verifier",
+      "mnemonic": "SYM_HL7_PNVF",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PNVF"
+      ]
+    },
+    {
+      "name": "HL7 - Processing Mode",
+      "mnemonic": "SYM_HL7_PROCESSTYPE",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PROCESSTYPE"
+      ]
+    },
+    {
+      "name": "HL7 - Purpose Of Use",
+      "mnemonic": "SYM_HL7_PRPU",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PRPU"
+      ]
+    },
+    {
+      "name": "HL7 - Personal Relationship Role Type",
+      "mnemonic": "SYM_HL7_PRRT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PRRT"
+      ]
+    },
+    {
+      "name": "HL7 - Participation Information Generator",
+      "mnemonic": "SYM_HL7_PTNG",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PTNG"
+      ]
+    },
+    {
+      "name": "HL7 - Participation Indirect Target",
+      "mnemonic": "SYM_HL7_PTNT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_PTNT"
+      ]
+    },
+    {
+      "name": "HL7 - Query Request Limit",
+      "mnemonic": "SYM_HL7_QRQL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_QRQL"
+      ]
+    },
+    {
+      "name": "HL7 - Query Status Code",
+      "mnemonic": "SYM_HL7_QRSC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_QRSC"
+      ]
+    },
+    {
+      "name": "HL7 - Query Response",
+      "mnemonic": "SYM_HL7_QRYR",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_QRYR"
+      ]
+    },
+    {
+      "name": "HL7 - Query Parameter Value",
+      "mnemonic": "SYM_HL7_QRYV",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_QRYV"
+      ]
+    },
+    {
+      "name": "HL7 - Query Priority",
+      "mnemonic": "SYM_HL7_QYPY",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_QYPY"
+      ]
+    },
+    {
+      "name": "HL7 - Religious Affiliation",
+      "mnemonic": "SYM_HL7_RA",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RA"
+      ]
+    },
+    {
+      "name": "HL7 - Race",
+      "mnemonic": "SYM_HL7_RAC3",
+      "codeSystemIdentifiers": [
+        "HL70005",
+        "http://hl7.org/fhir/v3/Race",
+        "SYM_HL7_RAC3"
+      ]
+    },
+    {
+      "name": "HL7 - Role Class Manufactured Product",
+      "mnemonic": "SYM_HL7_RCMP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RCMP"
+      ]
+    },
+    {
+      "name": "HL7 - Role Class Mutual Relationship",
+      "mnemonic": "SYM_HL7_RCMR",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RCMR"
+      ]
+    },
+    {
+      "name": "HL7 - Role Class Relationship",
+      "mnemonic": "SYM_HL7_RCR",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RCR"
+      ]
+    },
+    {
+      "name": "HL7 - Role Class Relationship Formal",
+      "mnemonic": "SYM_HL7_RCRF",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RCRF"
+      ]
+    },
+    {
+      "name": "HL7 - Role Class Root",
+      "mnemonic": "SYM_HL7_RCRT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RCRT"
+      ]
+    },
+    {
+      "name": "HL7 - Role Class Service Delivery Location",
+      "mnemonic": "SYM_HL7_RCSDL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RCSDL"
+      ]
+    },
+    {
+      "name": "HL7 - Role Class Specimen",
+      "mnemonic": "SYM_HL7_RCSP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RCSP"
+      ]
+    },
+    {
+      "name": "HL7 - Response Mode",
+      "mnemonic": "SYM_HL7_RESPMOD",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RESPMOD"
+      ]
+    },
+    {
+      "name": "HL7 - Refrain Policy",
+      "mnemonic": "SYM_HL7_RFPL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RFPL"
+      ]
+    },
+    {
+      "name": "HL7 - Role Class Agent",
+      "mnemonic": "SYM_HL7_RLCA",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RLCA"
+      ]
+    },
+    {
+      "name": "HL7 - Role Class Associative",
+      "mnemonic": "SYM_HL7_RLCL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RLCL"
+      ]
+    },
+    {
+      "name": "HL7 - Role Class Partitive",
+      "mnemonic": "SYM_HL7_RLCP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RLCP"
+      ]
+    },
+    {
+      "name": "HL7 - Role Link Type",
+      "mnemonic": "SYM_HL7_RLKT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RLKT"
+      ]
+    },
+    {
+      "name": "HL7 - Role Link Status",
+      "mnemonic": "SYM_HL7_RLLS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RLLS"
+      ]
+    },
+    {
+      "name": "HL7 - Relational Operator",
+      "mnemonic": "SYM_HL7_RLOP",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RLOP"
+      ]
+    },
+    {
+      "name": "HL7 - Role Class Passive",
+      "mnemonic": "SYM_HL7_RLPV",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RLPV"
+      ]
+    },
+    {
+      "name": "HL7 - Role Class",
+      "mnemonic": "SYM_HL7_ROLECLASS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ROLECLASS"
+      ]
+    },
+    {
+      "name": "HL7 - Role Code",
+      "mnemonic": "SYM_HL7_ROLECODE",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ROLECODE"
+      ]
+    },
+    {
+      "name": "HL7 - Role Status",
+      "mnemonic": "SYM_HL7_ROLESTATUS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ROLESTATUS"
+      ]
+    },
+    {
+      "name": "HL7 - RouteOfAdministration",
+      "mnemonic": "SYM_HL7_ROUTEADMIN",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_ROUTEADMIN"
+      ]
+    },
+    {
+      "name": "HL7 - Response Level",
+      "mnemonic": "SYM_HL7_RPLV",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RPLV"
+      ]
+    },
+    {
+      "name": "HL7 - Response Modality",
+      "mnemonic": "SYM_HL7_RPMD",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RPMD"
+      ]
+    },
+    {
+      "name": "HL7 - Result Status",
+      "mnemonic": "SYM_HL7_RS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RS"
+      ]
+    },
+    {
+      "name": "HL7 - Relationship Conjunction",
+      "mnemonic": "SYM_HL7_RSCJ",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_RSCJ"
+      ]
+    },
+    {
+      "name": "HL7 - Substance Admin Substitution Reason",
+      "mnemonic": "SYM_HL7_SASR",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_SASR"
+      ]
+    },
+    {
+      "name": "HL7 - Substance Admin Substitution",
+      "mnemonic": "SYM_HL7_SBAS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_SBAS"
+      ]
+    },
+    {
+      "name": "HL7 - Substitution Condition",
+      "mnemonic": "SYM_HL7_SBCN",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_SBCN"
+      ]
+    },
+    {
+      "name": "HL7 - Security Control Observation Value",
+      "mnemonic": "SYM_HL7_SCOV",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_SCOV"
+      ]
+    },
+    {
+      "name": "HL7 - Security Policy",
+      "mnemonic": "SYM_HL7_SCPL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_SCPL"
+      ]
+    },
+    {
+      "name": "HL7 - Service Delivery Location RoleType",
+      "mnemonic": "SYM_HL7_SDLRT",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_SDLRT"
+      ]
+    },
+    {
+      "name": "HL7 - Security Integrity Observation Value",
+      "mnemonic": "SYM_HL7_SIOV",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_SIOV"
+      ]
+    },
+    {
+      "name": "HL7 - Specimen Type",
+      "mnemonic": "SYM_HL7_SPECTYPE",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_SPECTYPE"
+      ]
+    },
+    {
+      "name": "HL7 - Sequencing",
+      "mnemonic": "SYM_HL7_SQCG",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_SQCG"
+      ]
+    },
+    {
+      "name": "HL7 - Set Operator",
+      "mnemonic": "SYM_HL7_STPR",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_STPR"
+      ]
+    },
+    {
+      "name": "HL7 - Severity Observation",
+      "mnemonic": "SYM_HL7_SVOB",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_SVOB"
+      ]
+    },
+    {
+      "name": "HL7 - Table Cell Scope",
+      "mnemonic": "SYM_HL7_TBCS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_TBCS"
+      ]
+    },
+    {
+      "name": "HL7 - Table Frame",
+      "mnemonic": "SYM_HL7_TBFR",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_TBFR"
+      ]
+    },
+    {
+      "name": "HL7 - Table Rules",
+      "mnemonic": "SYM_HL7_TBRL",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_TBRL"
+      ]
+    },
+    {
+      "name": "HL7 - Table Cell Horizontal Align",
+      "mnemonic": "SYM_HL7_TCHA",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_TCHA"
+      ]
+    },
+    {
+      "name": "HL7 - Table Cell Vertical Align",
+      "mnemonic": "SYM_HL7_TCVA",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_TCVA"
+      ]
+    },
+    {
+      "name": "HL7 - Tribal Entity US",
+      "mnemonic": "SYM_HL7_TEUS",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_TEUS"
+      ]
+    },
+    {
+      "name": "HL7 - Target Awareness",
+      "mnemonic": "SYM_HL7_TGTW",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_TGTW"
+      ]
+    },
+    {
+      "name": "HL7 - Telecommunication Capabilities",
+      "mnemonic": "SYM_HL7_TLCC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_TLCC"
+      ]
+    },
+    {
+      "name": "HL7 - Timing Event",
+      "mnemonic": "SYM_HL7_TMGV",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_TMGV"
+      ]
+    },
+    {
+      "name": "HL7 - Transmission Relationship Type Code",
+      "mnemonic": "SYM_HL7_TRTC",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_TRTC"
+      ]
+    },
+    {
+      "name": "HL7 - URL Scheme",
+      "mnemonic": "SYM_HL7_URLSCHEME",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_URLSCHEME"
+      ]
+    },
+    {
+      "name": "HL7 - Vaccine Manufacturer",
+      "mnemonic": "SYM_HL7_VCCM",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_VCCM"
+      ]
+    },
+    {
+      "name": "HL7 - Verification Method",
+      "mnemonic": "SYM_HL7_VFMD",
+      "codeSystemIdentifiers": [
+        "SYM_HL7_VFMD"
+      ]
+    },
+    {
+      "name": "HL7 - Observation Method",
+      "mnemonic": "SYM_HLS_OM",
+      "codeSystemIdentifiers": [
+        "SYM_HLS_OM"
+      ]
+    },
+    {
+      "name": "ISO - Medical Device Codes (ISO 11073-10101)",
+      "mnemonic": "SYM_ISO_11073-10101",
+      "codeSystemIdentifiers": [
+        "SYM_ISO_11073-10101"
+      ]
+    },
+    {
+      "name": "ISO - Country Codes (3166)",
+      "mnemonic": "SYM_ISO_3166",
+      "codeSystemIdentifiers": [
+        "SYM_ISO_3166"
+      ]
+    },
+    {
+      "name": "ISO - Country Subdivision Codes (3166-2)",
+      "mnemonic": "SYM_ISO_3166-2",
+      "codeSystemIdentifiers": [
+        "SYM_ISO_3166-2"
+      ]
+    },
+    {
+      "name": "ISO - Currency Codes (4217)",
+      "mnemonic": "SYM_ISO_4217",
+      "codeSystemIdentifiers": [
+        "SYM_ISO_4217"
+      ]
+    },
+    {
+      "name": "ISO - Language Codes (639-1)",
+      "mnemonic": "SYM_ISO_639-1",
+      "codeSystemIdentifiers": [
+        "http://id.loc.gov/vocabulary/iso639-1",
+        "SYM_ISO_639-1"
+      ]
+    },
+    {
+      "name": "ISO - Language Codes (639-2)",
+      "mnemonic": "SYM_ISO_639-2",
+      "codeSystemIdentifiers": [
+        "SYM_ISO_639-2"
+      ]
+    },
+    {
+      "name": "ISO - Comprehensive Language Codes (639-3)",
+      "mnemonic": "SYM_ISO_639-3",
+      "codeSystemIdentifiers": [
+        "SYM_ISO_639-3"
+      ]
+    },
+    {
+      "name": "ISO - Language Family Codes (639-5)",
+      "mnemonic": "SYM_ISO_639-5",
+      "codeSystemIdentifiers": [
+        "SYM_ISO_639-5"
+      ]
+    },
+    {
+      "name": "ISO - Language Codes (639) MU subset",
+      "mnemonic": "SYM_ISO_639_MU",
+      "codeSystemIdentifiers": [
+        "SYM_ISO_639_MU"
+      ]
+    },
+    {
+      "name": "ISO - Canada Subdivision",
+      "mnemonic": "SYM_ISO_CA",
+      "codeSystemIdentifiers": [
+        "SYM_ISO_CA"
+      ]
+    },
+    {
+      "name": "ISO - Mexico Subdivisions",
+      "mnemonic": "SYM_ISO_MX",
+      "codeSystemIdentifiers": [
+        "SYM_ISO_MX"
+      ]
+    },
+    {
+      "name": "HL7 - Military Role Type",
+      "mnemonic": "SYM_MTRT",
+      "codeSystemIdentifiers": [
+        "SYM_MTRT"
+      ]
+    },
+    {
+      "name": "NCI Thesaurus",
+      "mnemonic": "SYM_NCI_THESAURUS",
+      "codeSystemIdentifiers": [
+        "SYM_NCI_THESAURUS"
+      ]
+    },
+    {
+      "name": "RxNorm",
+      "mnemonic": "SYM_NLM_RXN",
+      "codeSystemIdentifiers": [
+        "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "SYM_NLM_RXN",
+        "RXNORM",
+        "2.16.840.1.113883.6.88"
+      ]
+    },
+    {
+      "name": "FHIR - US Core OMB Ethnicity Categories",
+      "mnemonic": "SYM_OMB_ETHNICITY_CATEGORIES_5_0_0",
+      "codeSystemIdentifiers": [
+        "SYM_OMB_ETHNICITY_CATEGORIES_5_0_0"
+      ]
+    },
+    {
+      "name": "LOINC",
+      "mnemonic": "SYM_REGEN_LOINC",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.6.1",
+        "SYM_REGEN_LOINC",
+        "http://loinc.org",
+        "LNC",
+        "LN"
+      ]
+    },
+    {
+      "name": "LOINC Answers",
+      "mnemonic": "SYM_REGEN_LOINCANSWERS",
+      "codeSystemIdentifiers": [
+        "SYM_REGEN_LOINCANSWERS"
+      ]
+    },
+    {
+      "name": "LOINC Parts",
+      "mnemonic": "SYM_REGEN_LOINCPART",
+      "codeSystemIdentifiers": [
+        "SYM_REGEN_LOINCPART"
+      ]
+    },
+    {
+      "name": "SNOMED CT US Edition",
+      "mnemonic": "SYM_SNO_INT_USEXT",
+      "codeSystemIdentifiers": [
+        "http://snomed.info/sct",
+        "SNM",
+        "SCT",
+        "SNOMEDCT",
+        "SN",
+        "SYM_SNO_INT_USEXT",
+        "SNO",
+        "SNOMED",
+        "2.16.840.1.113883.6.96"
+      ]
+    },
+    {
+      "name": "UCUM - the Unified Codes for Units of Measures",
+      "mnemonic": "SYM_UCUM",
+      "codeSystemIdentifiers": [
+        "SYM_UCUM"
+      ]
+    },
+    {
+      "name": "MED-RT",
+      "mnemonic": "SYM_VA_MEDRT",
+      "codeSystemIdentifiers": [
+        "SYM_VA_MEDRT"
+      ]
+    },
+    {
+      "name": "NDFRT",
+      "mnemonic": "SYM_VA_NDFRT",
+      "codeSystemIdentifiers": [
+        "SYM_VA_NDFRT"
+      ]
+    },
+    {
+      "name": "NDFRT FDA Classes",
+      "mnemonic": "SYM_VA_NDFRTFDACLASS",
+      "codeSystemIdentifiers": [
+        "SYM_VA_NDFRTFDACLASS"
+      ]
+    },
+    {
+      "name": "NDFRT VA Classes",
+      "mnemonic": "SYM_VA_NDFRTVACLASS",
+      "codeSystemIdentifiers": [
+        "SYM_VA_NDFRTVACLASS"
+      ]
+    },
+    {
+      "name": "ICD-10-CM",
+      "mnemonic": "SYM_WHO_ICD10CM_FULL",
+      "codeSystemIdentifiers": [
+        "ICD10CM",
+        "https://www.cms.gov/medicare/icd-10/2022-icd-10-cm ",
+        "I10",
+        "2.16.840.1.113883.6.90",
+        "ICD10",
+        "ICD10-CM",
+        "SYM_WHO_ICD10CM_FULL",
+        "I10C"
+      ]
+    },
+    {
+      "name": "ICD-10-PCS",
+      "mnemonic": "SYM_WHO_ICD10PCS_FULL",
+      "codeSystemIdentifiers": [
+        "2.16.840.1.113883.6.4",
+        "I10P",
+        "ICD10PCS",
+        "SYM_WHO_ICD10PCS_FULL",
+        "I10PCS",
+        "http://hl7.org/fhir/sid/icd-10-pcs"
+      ]
+    },
+    {
+      "name": "ICD-9-CM Diagnosis",
+      "mnemonic": "SYM_WHO_ICD9CMD31",
+      "codeSystemIdentifiers": [
+        "I9",
+        "SYM_WHO_ICD9CMD31"
+      ]
+    },
+    {
+      "name": "ICD-9-CM Procedure",
+      "mnemonic": "SYM_WHO_ICD9CMP31",
+      "codeSystemIdentifiers": [
+        "SYM_WHO_ICD9CMP31"
+      ]
+    },
+    {
+      "name": "Test01",
+      "mnemonic": "TEST01",
+      "codeSystemIdentifiers": [
+        "TestAlias02"
+      ]
+    }
+  ]
+}
