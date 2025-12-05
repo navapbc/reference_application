@@ -19,8 +19,8 @@
   "MedicationDispenseCount": "0",
   "ObservationCount": "1",
   "ProcedureCount": "0",
-  "Patient": {
-    "Demographics": {
+  "patient": {
+    "demographics": {
       "birthSex": {
         "codings": [
           {
@@ -53,7 +53,7 @@
         "text": "American Indian or Alaska Native"
       }
     },
-    "HealthAssessments": [
+    "healthAssessments": [
       {
         "id": "ff52b9b7-1f54-4ab9-921a-f76d4ee4618b",
         "assessment": {
@@ -74,7 +74,7 @@
         }
       }
     ],
-    "Encounters": [
+    "encounters": [
       {
         "encounterDateTime": "2026-01-02T08:00:00.000+00:00",
         "encounterType": "Psychiatric interview and evaluation (procedure)",
