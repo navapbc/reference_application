@@ -11,7 +11,7 @@
         /// <summary>
         /// Gets or sets the message object containing the data to be processed by the SAM.
         /// </summary>
-        public object MessageObject { get; set; }                   // The message data to process
+        public object EvaluationObject { get; set; }                   // The message data to process
 
         /// <summary>
         /// Gets or sets the list of additional parameters provided to the SAM.

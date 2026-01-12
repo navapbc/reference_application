@@ -416,7 +416,7 @@ namespace PIQI_Engine.Server.Engines
                     PIQISAMResponse? samResult = null;
 
                     // Create SAM request object
-                    samRequest.MessageObject = evaluationResult.EvaluationItem.MessageItem;
+                    samRequest.EvaluationObject = evaluationResult.EvaluationItem.MessageItem;
                     if (evaluationCriteriaParameters != null && evaluationCriteriaParameters.Count > 0)
                     {
                         // Add processing URL as a parameter

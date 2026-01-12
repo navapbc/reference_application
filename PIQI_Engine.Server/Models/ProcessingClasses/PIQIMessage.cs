@@ -430,6 +430,8 @@ namespace PIQI_Engine.Server.Models
                 // Map mnemonics to SAM worker implementations
                 return mnemonic switch
                 {
+                    #region Simple Attribute SAMs
+                    "ATTR_ISCODED" => new SAM_AttrIsCoded(sam, samService),
                     "ATTR_ISPOPULATED" => new SAM_AttrIsPopulated(sam, samService),
                     "ATTR_ISNUMERIC" => new SAM_AttrIsNumeric(sam, samService),
                     "ATTR_ISINTEGER" => new SAM_AttrIsInteger(sam, samService),
@@ -445,6 +447,10 @@ namespace PIQI_Engine.Server.Models
                     "ATTR_MATCHESREGEX" => new SAM_AttrMatchesRegex(sam, samService),
                     "ATTR_INLIST" => new SAM_AttrIsInList(sam, samService),
                     "ATTR_INEXTERNALLIST" => new SAM_AttrIsInExternalList(sam, samService),
+                    "ATTRIBUTE_INDICATOR_IS_TRUE" => new SAM_AttrIndicatorIsTrue(sam, samService),
+                    #endregion
+
+                    #region Codeable Concept SAMs
                     "CONCEPT_HASCODE" => new SAM_ConceptHasCode(sam, samService),
                     "CONCEPT_HASCODESYSTEM" => new SAM_ConceptHasCodeSystem(sam, samService),
                     "CONCEPT_HASDISPLAY" => new SAM_ConceptHasDisplay(sam, samService),
@@ -455,14 +461,26 @@ namespace PIQI_Engine.Server.Models
                     "CONCEPT_ISVALIDMEMBER" => new SAM_ConceptIsValidMember(sam, samService),
                     "CONCEPT_ISCONSISTENT" => new SAM_ConceptIsConsistent(sam, samService),
                     "CONCEPT_ISACTIVE" => new SAM_ConceptIsActive(sam, samService),
-                    "Custom_External_Assessment" => new SAM_CustomExternalAssessment(sam, samService),
+                    #endregion
+
+                    #region Observation Value SAMs
                     "OBSERVATIONVALUETYPE_INLIST" => new SAM_ValueTypeInList(sam, samService),
                     "OBSERVATIONVALUE_MATCHESTYPE" => new SAM_ValueMatchesType(sam, samService),
                     "OBSERVATIONVALUE_ISQUALITATIVE" => new SAM_ValueIsQualitative(sam, samService),
+                    #endregion
+
+                    #region Reference Range SAMs
                     "RANGEVALUE_ISCOMPLETE" => new SAM_RangeValueIsComplete(sam, samService),
                     "RANGEVALUE_ISVALID" => new SAM_RangeValueIsValid(sam, samService),
-                    "ATTR_ISCODED" => new SAM_AttrIsCoded(sam, samService),
+                    #endregion
+
+                    #region Element-Level SAMs
+                    #endregion
+
+
+                    "Custom_External_Assessment" => new SAM_CustomExternalAssessment(sam, samService),
                     "EVAL_ISVALID" => new SAM_EvalIsValid(sam, samService),
+
                     _ => new SAM_Default(sam, samService)
                 };
             }

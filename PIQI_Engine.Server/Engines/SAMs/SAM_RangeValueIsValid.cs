@@ -52,7 +52,7 @@ namespace PIQI_Engine.Server.Engines.SAMs
                 throw new Exception("SAM not implemented.");
 
                 // The following code is placeholder and not currently reachable
-                MessageModelItem item = (MessageModelItem)request.MessageObject;
+                MessageModelItem item = (MessageModelItem)request.EvaluationObject;
                 BaseText data = (BaseText)item.MessageData;
 
                 if (data is not ReferenceRange)

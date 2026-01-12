@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using PIQI_Engine.Server.Services;
-using System.Text;
 using System.Text.Json;
 
 namespace PIQI_Engine.Server.Models
@@ -176,6 +175,7 @@ namespace PIQI_Engine.Server.Models
                                 {
                                     string? code = null;
                                     string? valueCode = null;
+                                    bool? valueBool = null;
 
                                     foreach (JsonElement part in parts.EnumerateArray())
                                     {
@@ -191,14 +191,26 @@ namespace PIQI_Engine.Server.Models
                                             {
                                                 valueCode = valueCodeElement.GetString();
                                             }
+                                            else if (partName.GetString() == "value" &&
+                                                     part.TryGetProperty("valueBoolean", out JsonElement valueBooleanElement))
+                                            {
+                                                valueBool = valueBooleanElement.GetBoolean();
+                                            }
                                         }
+                                    }
+
+                                    // Check for Inactive AND Status
+                                    if (code == "inactive" && valueBool is bool)
+                                    {
+                                        IsActive = !(bool)valueBool;
+                                        break;
                                     }
 
                                     if (code == "Status" && valueCode != null)
                                     {
                                         IsActive = valueCode.ToUpper() == "ACTIVE";
                                         break;
-                                    }
+                                    } 
                                 }
                             }
                         }

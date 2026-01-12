@@ -52,17 +52,15 @@ namespace PIQI_Engine.Server.Engines.SAMs
             try
             {
                 // Set the message model item
-                MessageModelItem item = (MessageModelItem)request.MessageObject;
+                MessageModelItem item = (MessageModelItem)request.EvaluationObject;
 
                 // Evaluate the item's message data
                 BaseText data = (BaseText)item.MessageData;
+                if (data == null || string.IsNullOrEmpty(data.Text)) return result.Fail("Attribute data not populated. Check sam dependencies");
 
-                // Cast to DateTime
+                // Cast to DateTime and validate
                 DateTime? dateTime = data.DateTimeValue();
-                if (dateTime == null) throw new Exception("Data parameter was not a datetime. Check the SAM dependencies");
-
-                // Check if the date part is valid
-                passed = (dateTime.Value.Date > DateTime.MinValue);
+                if (dateTime != null && dateTime.Value.Date > DateTime.MinValue) passed = true;
 
                 // Update result
                 result.Done(passed);

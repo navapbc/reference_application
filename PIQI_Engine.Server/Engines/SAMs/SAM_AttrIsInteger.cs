@@ -18,7 +18,7 @@ namespace PIQI_Engine.Server.Engines.SAMs
         public SAM_AttrIsInteger(SAM sam, SAMService samService) : base(sam, samService) { }
 
         /// <summary>
-        /// Evaluates whether the text value of a message attribute represents a valid integer.
+        /// Evaluates whether the text value of a message attribute represents a valid integer.(MessageModelItem)request.EvaluationObject;
         /// </summary>
         /// <param name="request">
         /// The <see cref="PIQISAMRequest"/> containing the message object to evaluate. 
@@ -47,7 +47,7 @@ namespace PIQI_Engine.Server.Engines.SAMs
             try
             {
                 // Set the message model item
-                MessageModelItem item = (MessageModelItem)request.MessageObject;
+                MessageModelItem item = (MessageModelItem)request.EvaluationObject;
 
                 // Access the attribute's message data
                 BaseText data = (BaseText)item.MessageData;

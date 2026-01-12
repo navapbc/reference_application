@@ -2,7 +2,7 @@
     "dataTypeLibrary": [
         {
             "Code":"CD",
-            "Name":"Coded By An Idiot",
+            "Name":"Coded",
             "IsCoded":true,
             "IsNumeric":false,
             "IsRange":false

@@ -122,16 +122,19 @@ namespace PIQI_Engine.Server.Models
                     foreach (JToken codeItemToken in codeItemTokens.Children())
                     {
                         Coding item = new Coding(codeItemToken);
+                        if (item.CodeText == null) item.CodeText = Text;
                         CodingList.Add(item);
                     }
                 }
 
+                // If there is display but not text, use first display for text
                 if (string.IsNullOrEmpty(Text) && CodingList.Any())
                 {
                     string text = CodingList.Where(t => !string.IsNullOrEmpty(t.CodeText)).FirstOrDefault()?.CodeText;
                     if (!string.IsNullOrEmpty(text)) Text = text;
                 }
 
+                // If there is text but not display, use text for display
                 if (!string.IsNullOrEmpty(Text) && CodingList.Any(t => string.IsNullOrEmpty(t.CodeText)))
                 {
                     List<Coding> noDisplayList = CodingList.Where(t => string.IsNullOrEmpty(t.CodeText)).ToList();

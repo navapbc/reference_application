@@ -69,7 +69,7 @@
             try
             {
                 if (properties == null || properties.Length == 0)
-                    properties = new[] { "display", "designations", "status" };
+                    properties = new[] { "display", "designations", "status", "inactive" };
 
                 // Build query string
                 var query = $"CodeSystem/$lookup?code={Uri.EscapeDataString(code)}&system={Uri.EscapeDataString(system)}";

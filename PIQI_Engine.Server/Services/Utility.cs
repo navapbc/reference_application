@@ -276,7 +276,7 @@ namespace PIQI_Engine.Server.Services
         public static JObject JSON_AddValueObject(Value value)
         {
             JObject v = new JObject();
-            v.Add("text", value.Text);
+            v.Add("text", value.Text ?? "");
 
             if (value.TypeCC != null)
             {

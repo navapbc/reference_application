@@ -82,7 +82,23 @@ namespace PIQI_Engine.Server.Models
                         CodingList.Add(item);
                     }
                 }
+
+                // If there is display but not text, use first display for text
+                if (string.IsNullOrEmpty(Text) && CodingList.Any())
+                {
+                    string text = CodingList.Where(t => !string.IsNullOrEmpty(t.CodeText)).FirstOrDefault()?.CodeText;
+                    if (!string.IsNullOrEmpty(text)) Text = text;
+                }
+
+                // If there is text but not display, use text for display
+                if (!string.IsNullOrEmpty(Text) && CodingList.Any(t => string.IsNullOrEmpty(t.CodeText)))
+                {
+                    List<Coding> noDisplayList = CodingList.Where(t => string.IsNullOrEmpty(t.CodeText)).ToList();
+                    foreach (Coding coding in noDisplayList)
+                        coding.CodeText = Text;
+                }
             }
+            if (referenceData != null) SetRecognizedCodeSystems(referenceData);
 
             // Process type node
             JToken typeToken = jToken.SelectToken("type");
@@ -107,6 +123,37 @@ namespace PIQI_Engine.Server.Models
                     if (bitList.Count > 0) if (double.TryParse(bitList[0], out val)) ValueNumber = val;
                     if (bitList.Count > 1) if (double.TryParse(bitList[1], out val)) ValueNumber2 = val;
                 }
+            }
+        }
+
+        #endregion
+
+        #region Methods
+
+        /// <summary>
+        /// Updates each <see cref="Coding"/> in <see cref="CodingList"/> with recognized code system information 
+        /// based on the provided <see cref="PIQIReferenceData"/>.
+        /// </summary>
+        /// <param name="referenceData">
+        /// The <see cref="PIQIReferenceData"/> used to determine which code systems are recognized.
+        /// </param>
+        /// <remarks>
+        /// For each <see cref="Coding"/> in <see cref="CodingList"/>, the method:
+        /// <list type="bullet">
+        ///   <item>Finds the first code system in <see cref="Coding.CodeSystemList"/> that is recognized by <paramref name="referenceData"/>.</item>
+        ///   <item>Sets <see cref="Coding.HasRecognizedCodeSystem"/> to <c>true</c> if a recognized code system is found, otherwise <c>false</c>.</item>
+        ///   <item>Assigns <see cref="Coding.RecognizedCodeSystem"/> to the recognized code system, or <c>null</c> if none are recognized.</item>
+        /// </list>
+        /// </remarks>
+        public void SetRecognizedCodeSystems(PIQIReferenceData referenceData)
+        {
+            // Update each coding with recognized code system information
+            foreach (Coding coding in CodingList)
+            {
+                var recognizedCodeSystem = coding.CodeSystemList?.FirstOrDefault(cs => referenceData.GetCodeSystem(cs) != null);
+                coding.HasRecognizedCodeSystem = recognizedCodeSystem != null;
+                coding.RecognizedCodeSystem = recognizedCodeSystem;
+                if (recognizedCodeSystem != null) coding.CodeSystem = recognizedCodeSystem;
             }
         }
 

@@ -119,7 +119,7 @@
       "samParameters": [
         {
           "samParameterMnemonic": "CODE_SYSTEM_CSV",
-          "parameterValue": "SYM_SNO_INT_USEXT,SYM_NLM_RXN",
+          "parameterValue": "SNO_INT_USEXT,NLM_RXN",
           "parameterValueTypeName": "Code System",
           "parameterName": "Code System CSV"
         }
@@ -154,7 +154,7 @@
       "samParameters": [
         {
           "samParameterMnemonic": "CODE_SYSTEM_CSV",
-          "parameterValue": "SYM_SNO_INT_USEXT,SYM_WHO_ICD10CM_FULL",
+          "parameterValue": "SNO_INT_USEXT,WHO_ICD10CM_FULL",
           "parameterValueTypeName": "Code System",
           "parameterName": "Code System CSV"
         }
@@ -308,7 +308,7 @@
       "samParameters": [
         {
           "samParameterMnemonic": "CODE_SYSTEM_CSV",
-          "parameterValue": "SYM_FDA_PACK,SYM_CDC_CVX",
+          "parameterValue": "FDA_PACK,CDC_CVX",
           "parameterValueTypeName": "Code System",
           "parameterName": "Code System CSV"
         }
@@ -329,7 +329,7 @@
       "samParameters": [
         {
           "samParameterMnemonic": "CODE_SYSTEM_CSV",
-          "parameterValue": "SYM_NLM_RXN,SYM_FDA_PACK",
+          "parameterValue": "NLM_RXN,FDA_PACK",
           "parameterValueTypeName": "Code System",
           "parameterName": "Code System CSV"
         }
@@ -350,7 +350,7 @@
       "samParameters": [
         {
           "samParameterMnemonic": "CODE_SYSTEM_CSV",
-          "parameterValue": "SYM_SNO_INT_USEXT,SYM_AMA_CPT,SYM_WHO_ICD10PCS_FULL",
+          "parameterValue": "SNO_INT_USEXT,AMA_CPT,WHO_ICD10PCS_FULL",
           "parameterValueTypeName": "Code System",
           "parameterName": "Code System CSV"
         }

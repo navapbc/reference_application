@@ -47,7 +47,7 @@ namespace PIQI_Engine.Server.Engines.SAMs
             try
             {
                 // Set the message model item
-                MessageModelItem item = (MessageModelItem)request.MessageObject;
+                MessageModelItem item = (MessageModelItem)request.EvaluationObject;
 
                 // Access the attribute's message data
                 BaseText data = (BaseText)item.MessageData;
