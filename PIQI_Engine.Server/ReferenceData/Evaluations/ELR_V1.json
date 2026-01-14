@@ -5,8 +5,8 @@
   "version": null,
   "authorityName": "Nava",
   "model": {
-    "name": "Patient Clinical Model 1.0",
-    "mnemonic": "PAT_CLINICAL_V1",
+    "name": "ELR Test Data Model 1.0",
+    "mnemonic": "ELR_TEST_V1",
     "version": 1
   },
   "source": {
