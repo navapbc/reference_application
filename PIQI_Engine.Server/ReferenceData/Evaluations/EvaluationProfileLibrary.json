@@ -9,6 +9,11 @@
       "name": "USCDI v2",
       "mnemonic": "USCDI_V2",
       "filePath": "ReferenceData/Evaluations/USCDI_V2.json"
+    },
+    {
+      "name": "ELR v1",
+      "mnemonic": "ELR_V1",
+      "filePath": "ReferenceData/Evaluations/ELR_V1.json"
     }
   ]
 }

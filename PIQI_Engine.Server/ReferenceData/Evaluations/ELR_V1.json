@@ -1,0 +1,242 @@
+{
+  "name": "ELR v1",
+  "mnemonic": "ELR_V1",
+  "description": "ELR 1",
+  "version": null,
+  "authorityName": "Nava",
+  "model": {
+    "name": "Patient Clinical Model 1.0",
+    "mnemonic": "PAT_CLINICAL_V1",
+    "version": 1
+  },
+  "source": {
+    "name": "PIQI Alliance",
+    "mnemonic": "PIQI.ALLIANCE"
+  },
+  "criteria": [
+    {
+      "sequence": 1,
+      "description": "",
+      "entity": "LAB_TEST",
+      "samMnemonic": "CONCEPT_ISACTIVE",
+      "samNameOverride": "LOINC Code Active",
+      "failureNameOverride": "Inactive LOINC Code",
+      "conditionalSam": null,
+      "scoringEffect": "Informational",
+      "scoringWeight": 1,
+      "criticalityIndicator": false,
+      "samParameters": [],
+      "conditionalSamParameters": []
+    },
+    {
+      "sequence": 2,
+      "description": "",
+      "entity": "LAB_TEST",
+      "samMnemonic": "CONCEPT_ISVALIDMEMBER",
+      "samNameOverride": "Lab Test is LOINC",
+      "failureNameOverride": "Lab Test not LOINC",
+      "conditionalSam": null,
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": true,
+      "samParameters": [
+        {
+          "samParameterMnemonic": "CODE_SYSTEM_CSV",
+          "parameterValue": "REGEN_LOINC",
+          "parameterValueTypeName": "Code System",
+          "parameterName": "Code System CSV"
+        }
+      ],
+      "conditionalSamParameters": []
+    },
+    {
+      "sequence": 3,
+      "description": "",
+      "entity": "LAB_ORD",
+      "samMnemonic": "CONCEPT_ISVALIDMEMBER",
+      "samNameOverride": "Lab Order is LOINC",
+      "failureNameOverride": "Lab Order not LOINC",
+      "conditionalSam": null,
+      "scoringEffect": "Informational",
+      "scoringWeight": 1,
+      "criticalityIndicator": false,
+      "samParameters": [
+        {
+          "samParameterMnemonic": "CODE_SYSTEM_CSV",
+          "parameterValue": "REGEN_LOINC",
+          "parameterValueTypeName": "Code System",
+          "parameterName": "Code System CSV"
+        }
+      ],
+      "conditionalSamParameters": []
+    },
+    {
+      "sequence": 4,
+      "description": "",
+      "entity": "LAB_RESVALUE",
+      "samMnemonic": "CONCEPT_ISVALIDMEMBER",
+      "samNameOverride": "Lab Result is SNOMED-CT",
+      "failureNameOverride": "Lab Result not SNOMED-CT",
+      "conditionalSam": "OBSERVATIONVALUE_ISQUALITATIVE",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false,
+      "samParameters": [
+        {
+          "samParameterMnemonic": "CODE_SYSTEM_CSV",
+          "parameterValue": "SNO_INT_USEXT",
+          "parameterValueTypeName": "Code System",
+          "parameterName": "Code System CSV"
+        }
+      ],
+      "conditionalSamParameters": []
+    },
+    {
+      "sequence": 5,
+      "description": "",
+      "entity": "LAB_RESUOM",
+      "samMnemonic": "ATTR_INEXTERNALLIST",
+      "samNameOverride": "Result Unit is UCUM",
+      "failureNameOverride": "Result Unit not in UCUM",
+      "conditionalSam": "ATTR_ISPOPULATED",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false,
+      "samParameters": [
+        {
+          "samParameterMnemonic": "EXTERNAL_LIST_MNEMONIC",
+          "parameterValue": "UCUM",
+          "parameterValueTypeName": "Content Set",
+          "parameterName": "External List  Mnemonic"
+        }
+      ],
+      "conditionalSamParameters": []
+    },
+    {
+      "sequence": 6,
+      "description": "",
+      "entity": "LAB_SPECTYPE",
+      "samMnemonic": "CONCEPT_ISVALIDMEMBER",
+      "samNameOverride": "Specimen Type is SNOMED-CT",
+      "failureNameOverride": "Specimen Type not SNOMED-CT",
+      "conditionalSam": "ATTR_ISPOPULATED",
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false,
+      "samParameters": [
+        {
+          "samParameterMnemonic": "CODE_SYSTEM_CSV",
+          "parameterValue": "SNO_INT_USEXT",
+          "parameterValueTypeName": "Code System",
+          "parameterName": "Code System CSV"
+        }
+      ],
+      "conditionalSamParameters": []
+    },
+    {
+      "sequence": 7,
+      "description": "",
+      "entity": "LAB_RSTAT",
+      "samMnemonic": "ATTR_ISPOPULATED",
+      "samNameOverride": "Result status is populated",
+      "failureNameOverride": "Result status is unpopulated",
+      "conditionalSam": null,
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false,
+      "samParameters": [],
+      "conditionalSamParameters": []
+    },
+    {
+      "sequence": 8,
+      "description": "",
+      "entity": "LAB_PERFDT",
+      "samMnemonic": "ATTR_ISPASTDATE",
+      "samNameOverride": "performed date is valid",
+      "failureNameOverride": "performed date is invalid",
+      "conditionalSam": null,
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false,
+      "samParameters": [],
+      "conditionalSamParameters": []
+    },
+    {
+      "sequence": 15,
+      "description": "",
+      "entity": "DEM_DOB",
+      "samMnemonic": "ATTR_ISPASTDATE",
+      "samNameOverride": "Date of birth is valid past date",
+      "failureNameOverride": "Date of brith is invalid",
+      "conditionalSam": null,
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false,
+      "samParameters": [],
+      "conditionalSamParameters": []
+    },
+    {
+      "sequence": 16,
+      "description": "",
+      "entity": "DEM_SEX",
+      "samMnemonic": "CONCEPT_ISVALIDMEMBER",
+      "samNameOverride": "Birth sex is SNOMED-CT",
+      "failureNameOverride": "Birth sex not coded as SNOMED-CT",
+      "conditionalSam": null,
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false,
+      "samParameters": [
+        {
+          "samParameterMnemonic": "CODE_SYSTEM_CSV",
+          "parameterValue": "SNO_INT_USEXT",
+          "parameterValueTypeName": "Code System",
+          "parameterName": "Code System CSV"
+        }
+      ],
+      "conditionalSamParameters": []
+    },
+    {
+      "sequence": 17,
+      "description": "",
+      "entity": "DEM_ETHN",
+      "samMnemonic": "CONCEPT_ISVALIDMEMBER",
+      "samNameOverride": "Ethnicity is valid code",
+      "failureNameOverride": "Ethnicity is invalid",
+      "conditionalSam": null,
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false,
+      "samParameters": [
+        {
+          "samParameterMnemonic": "CODE_SYSTEM_CSV",
+          "parameterValue": "CDC_RE",
+          "parameterValueTypeName": "Code System",
+          "parameterName": "Code System CSV"
+        }
+      ],
+      "conditionalSamParameters": []
+    },
+    {
+      "sequence": 18,
+      "description": "",
+      "entity": "DEM_RACE",
+      "samMnemonic": "CONCEPT_ISVALIDMEMBER",
+      "samNameOverride": "Race is valid concept",
+      "failureNameOverride": "Race is invalid",
+      "conditionalSam": null,
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false,
+      "samParameters": [
+        {
+          "samParameterMnemonic": "CODE_SYSTEM_CSV",
+          "parameterValue": "CDC_RE",
+          "parameterValueTypeName": "Code System",
+          "parameterName": "Code System CSV"
+        }
+      ],
+      "conditionalSamParameters": []
+    }
+  ]
+}
