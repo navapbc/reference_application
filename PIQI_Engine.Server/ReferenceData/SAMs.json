@@ -1133,6 +1133,29 @@
       ]
     },
     {
+      "mnemonic": "OBSERVATIONVALUE_ISPLAUSIBLE",
+      "name": "Observation Value is Plausible",
+      "FailName": "value type is not plausible",
+      "inputType": "OBSVAL",
+      "prerequisiteSAMMnemonic": "ATTR_ISPOPULATED",
+      "HDQTDimensionMnemonic": "ACC_INVFMT",
+      "executionTypeMnemonic": "STANDALONE",
+      "createdDateTime": "2026-01-14T14:48:09.783",
+      "modifiedDateTime": "2026-01-14T14:47:56.737",
+      "Source": {
+        "Name": "PIQI Alliance",
+        "Mnemonic": "PIQI.ALLIANCE"
+      },
+      "parameters": [
+        {
+          "name": "Valid Attribute List",
+          "Mnemonic": "VALID_ATTRIBUTE_LIST",
+          "parameterValueTypeName": "Model Attribute",
+          "isOptional": "true"
+        }
+      ]
+    },    
+    {
       "mnemonic": "OBSERVATIONVALUE_MATCHESTYPE",
       "name": "Observation Value Matches Type",
       "inputType": "OBSVAL",

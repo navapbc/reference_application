@@ -162,6 +162,20 @@
       "conditionalSamParameters": []
     },
     {
+      "sequence": 9,
+      "description": "",
+      "entity": "LAB_VALPLAUS",
+      "samMnemonic": "OBSERVATIONVALUE_ISPLAUSIBLE",
+      "samNameOverride": "value is not plausible",
+      "failureNameOverride": "value is not plausible",
+      "conditionalSam": null,
+      "scoringEffect": "Scoring",
+      "scoringWeight": 1,
+      "criticalityIndicator": false,
+      "samParameters": [],
+      "conditionalSamParameters": []
+    },    
+    {
       "sequence": 15,
       "description": "",
       "entity": "DEM_DOB",

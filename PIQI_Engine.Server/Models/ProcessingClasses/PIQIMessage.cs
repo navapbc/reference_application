@@ -467,6 +467,7 @@ namespace PIQI_Engine.Server.Models
                     "OBSERVATIONVALUETYPE_INLIST" => new SAM_ValueTypeInList(sam, samService),
                     "OBSERVATIONVALUE_MATCHESTYPE" => new SAM_ValueMatchesType(sam, samService),
                     "OBSERVATIONVALUE_ISQUALITATIVE" => new SAM_ValueIsQualitative(sam, samService),
+                    "OBSERVATIONVALUE_ISPLAUSIBLE" => new SAM_ObsValuePlausible(sam, samService),
                     #endregion
 
                     #region Reference Range SAMs
